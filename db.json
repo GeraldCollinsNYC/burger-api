@@ -1,900 +1,2645 @@
 {
-  "burgers": [
-    {
-      "id": 0,
-      "name": "Tribute Burger",
-      "restaurant": "Honest Burgers",
-      "web": "www.honestburgers.co.uk",
-      "description": "A mouth-watering honest beef burger",
-      "ingredients": [
-        "beef",
-        "american cheese",
-        "burger sauce",
-        "french mustard",
-        "pickes",
-        "onion",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "75",
-          "line1": "Venn Street",
-          "line2": "Clapham",
-          "postcode": "SW4 0BD",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Pulled Mooshie",
-      "restaurant": "Mooshies",
-      "web": "www.veganburger.org",
-      "description": "Spicy vegan burger with jackfruit",
-      "ingredients": [
-        "jackfruit",
-        "coleslaw",
-        "gluten free bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "104",
-          "line1": "Brick Lane",
-          "line2": "Shoreditch",
-          "postcode": "E1 6RL",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Krabby Patty",
-      "restaurant": "Krusty Krab",
-      "web": "https://twitter.com/SpongeBob",
-      "description": "The only people who don't like a Krabby Patty have never tasted one.",
-      "ingredients": [
-        "bun",
-        "patty",
-        "ketchup",
-        "mustard",
-        "pickles",
-        "onions",
-        "lettuce",
-        "cheese",
-        "tomato",
-        "bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "831",
-          "line1": "Bottom Feeder Lane",
-          "line2": "",
-          "postcode": "",
-          "country": "Bikini Bottom, Pacific Ocean"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "The Good Burger",
-      "restaurant": "Good Burger",
-      "web": "https://en.wikipedia.org/wiki/Good_Burger",
-      "description": "Welcome to Good Burger, home of the Good Burger, can I take your order?",
-      "ingredients": [
-        "bun",
-        "tomato",
-        "Ed's secret sauce",
-        "lettuce",
-        "onions",
-        "cheese"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "000",
-          "line1": "Good Burger",
-          "line2": "437 Glendora Ave.",
-          "postcode": "CA",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Crunchy Nacho Burger",
-      "restaurant": "Max Burgers",
-      "web": "https://www.max.se/maten/meny/burgare/crunchy-nacho-burger/",
-      "description": "The best combination of crunchiness and softness, all in one single burger",
-      "ingredients": [
-        "sesame bun",
-        "salsa",
-        "cheddar",
-        "nachos",
-        "beef",
-        "tomato",
-        "pickled onion",
-        "lettuce",
-        "jalapeño mayonnaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "48D",
-          "line1": "Skeppsbrogatan",
-          "line2": "Luleå",
-          "postcode": "971 25",
-          "country": "Sweden"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Barbie Burger",
-      "restaurant": "Flower Burger",
-      "web": "https://www.flowerburger.it/",
-      "description": "From a pink explosion was born Barbie Burger, a special edition in partnership with Mattel",
-      "ingredients": [
-        "pink bun",
-        "lentil and beetroot burger",
-        "tomatoes",
-        "gentilina salad",
-        "barbie hummus",
-        "barbie mayo"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "Porta Genova",
-          "line2": "Via Tortona",
-          "postcode": "20144",
-          "country": "Italy"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Curry On My Wayward Bun",
-      "restaurant": "Bob's Burgers",
-      "web": "https://bobs-burgers.fandom.com/wiki/Burger_of_the_Day",
-      "description": "N/A",
-      "ingredients": [
-        "beef",
-        "curry",
-        "bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "0",
-          "line1": "Ocean Avenue",
-          "line2": "NJ",
-          "postcode": "08260",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "MEISTER ALLER KLASSEN",
-      "restaurant": "Burgermeister",
-      "web": "https://burger-meister.de",
-      "description": "Fast food joint located in a public toilet? Why on earth?!",
-      "ingredients": [
-        "2 x meat",
-        "2 x cheese",
-        "bacon",
-        "barbequesauce",
-        "jalapenos"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "1",
-          "line1": "Potsdamer Platz",
-          "line2": "Berlin",
-          "postcode": "10785",
-          "country": "Germany"
-        },
-        {
-          "addressId": 1,
-          "number": "45",
-          "line1": "Eberswalder, Schönhauser Allee",
-          "line2": "Berlin",
-          "postcode": "10435",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Vegetarian Burger (Indian Style)",
-      "restaurant": "Indian Burgers",
-      "web": "https://www.cookwithmanali.com/vegetarian-burger-indian-style/",
-      "description": "With summer around the corner, I had to share a vegetarian burger recipe with you guys. Actually I plan to share more in the next month but I thought I will start with this Indian style Vegetarian Burger aka Masala Burger!",
-      "ingredients": [
-        "american cheese",
-        "burger sauce",
-        "french mustard",
-        "pickes",
-        "onion",
-        "Veggies"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "007",
-          "line1": "Line1",
-          "line2": "Line2",
-          "postcode": "",
-          "country": "India"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Fat Santa",
-      "restaurant": "Sky City Hamilton",
-      "web": "https://skycityhamilton.co.nz/eat-drink/eat-burger/",
-      "description": "A Christmas themed burger",
-      "ingredients": [
-        "chicken thigh",
-        "champagne ham",
-        "sage and onion stuffing",
-        "gravy mash",
-        "lettuce",
-        "tomato",
-        "cranberry sauce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "348",
-          "line1": "Victoria street",
-          "line2": "Hamilton Central, Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Blondie",
-      "restaurant": "Yankys",
-      "web": "http://yankyslambton.co.za/menu/",
-      "description": "Delicious steak burger",
-      "ingredients": [
-        "steak",
-        "BBQ sauce",
-        "bacon",
-        "egg",
-        "cheese",
-        "lettuce",
-        "tomato",
-        "onion",
-        "gerkins"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "114",
-          "line1": "Webber Road",
-          "line2": "Lambton, Germiston",
-          "postcode": "1414",
-          "country": "South Africa"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Monster Burger",
-      "restaurant": "Yankys",
-      "web": "http://yankyslambton.co.za/menu/",
-      "description": "Massive meaty burger - the size of a dinner plate",
-      "ingredients": [
-        "250g patty",
-        "bacon",
-        "cheese",
-        "2 eggs",
-        "steak",
-        "BBQ sauce",
-        "lettuce",
-        "tomato",
-        "onion",
-        "gerkins"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "114",
-          "line1": "Webber Road",
-          "line2": "Lambton, Germiston",
-          "postcode": "1414",
-          "country": "South Africa"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Buffalo chicken burger",
-      "restaurant": "Meat Mission",
-      "web": "http://meatliquor.com/",
-      "description": "Large, messy, super tasty buffalo chicken burger",
-      "ingredients": [
-        "Fried chicken breast",
-        "House-made buffalo sauce",
-        "Lettuce",
-        "Red onions",
-        "Blue cheese sauce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "15",
-          "line1": "Hoxton Market,",
-          "line2": "Hackney, London",
-          "postcode": "N1 6HG",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Cheatday Burger",
-      "restaurant": "Burgeramt",
-      "web": "https://www.burgeramt.com/",
-      "description": "Perfect when you need a day off from your workout routine",
-      "ingredients": [
-        "double beef",
-        "chilli-cheese sauce",
-        "2 slices cheddar cheese",
-        "crispy bacon stripes",
-        "nachos",
-        "mayonnaise",
-        "mustard"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "21 - 22",
-          "line1": "Krossener Straße",
-          "line2": "Berlin",
-          "postcode": "10245",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "name": "The Truffler (vegan)",
-      "restaurant": "Byron Burgers",
-      "web": "https://www.byron.co.uk/",
-      "description": "Beyond Meat patty, crispy onions, mushrooms, pickled red onions, lettuce American mustard, truffle ‘cheese’ fondue, truffle ‘mayo’",
-      "ingredients": [
-        "1/4 Beyond Meat patty",
-        "crispy onions",
-        "sauteed mushrooms",
-        "pickled red onions",
-        "lettuce",
-        "American mustard",
-        "truffle vegan cheese fondue",
-        "truffle vegan mayo"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "41-45",
-          "line1": "The Cut",
-          "line2": "London",
-          "postcode": "SE1 8LF",
-          "country": "United Kingdom"
-        },
-        {
-          "addressId": 1,
-          "number": "The Loft",
-          "line1": "Westfield Shopping Centre",
-          "line2": "London",
-          "postcode": "W12 7GF",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Aloette Buger",
-      "restaurant": "Aloette",
-      "web": "https://aloetterestaurant.com/",
-      "description": "Haute cuisine meets cravings for cheeseburgers.",
-      "ingredients": [
-        "6oz beef patty, served medium",
-        "griddled beaufort cheese",
-        "cheddar mayo",
-        "shredded lettuce",
-        "potato roll"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "163",
-          "line1": "Spadina Ave",
-          "line2": "Toronto",
-          "postcode": "M5V 2A5",
-          "country": "Canada"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "name": "BBQ Burger",
-      "restaurant": "Fresh Plant Powered",
-      "web": "https://freshplantpowered.com/",
-      "description": "Vegan burger made from whole, natural ingredients.",
-      "ingredients": [
-        "house-made grain burger",
-        "bbq sauce",
-        "quinoa onion rings",
-        "vegan garlic mayo",
-        "napa cabbage",
-        "banana chillies",
-        "tomato",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "147",
-          "line1": "Spadina Ave",
-          "line2": "Toronto",
-          "postcode": "M5V 2L7",
-          "country": "Canada"
-        },
-        {
-          "addressId": 1,
-          "number": "326",
-          "line1": "Bloor Street West",
-          "line2": "Toronto",
-          "postcode": "M5S 1W5",
-          "country": "Canada"
-        },
-        {
-          "addressId": 2,
-          "number": "894",
-          "line1": "Queen Street West",
-          "line2": "Toronto",
-          "postcode": "M6J 1G3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 3,
-          "number": "90",
-          "line1": "Eglinton Avenue East",
-          "line2": "Toronto",
-          "postcode": "M4P 2Y3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 4,
-          "number": "47",
-          "line1": "Front Street East",
-          "line2": "Toronto",
-          "postcode": "M5E 1B3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 5,
-          "number": "95",
-          "line1": "Queen Elizabeth Blvd",
-          "line2": "Etobicoke",
-          "postcode": "M8Z 1P3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 6,
-          "number": "8768",
-          "line1": "Sunset Blvd",
-          "line2": "Los Angeles",
-          "postcode": "90069",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Carroll's Cheese Burger",
-      "restaurant": "Carroll's Pub Worms",
-      "web": "https://www.carrolls-pub-worms.de/",
-      "description": "Tasty black angus beef burger.",
-      "ingredients": [
-        "Irish black angus beef",
-        "tomato",
-        "lettuce",
-        "caramelized onions",
-        "pickles",
-        "cheddar cheese",
-        "tomato relish"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "54",
-          "line1": "Rheinstraße",
-          "line2": "Worms",
-          "postcode": "67547",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Mojitto Burger",
-      "restaurant": "Burger King India",
-      "web": "www.mojitto.com",
-      "description": "Burger a day keeps the fat away",
-      "ingredients": [
-        "bread",
-        "maida",
-        "chick",
-        "patty"
-      ],
-      "addresses": [
-        {
-          "addressID": 0,
-          "number": "8A",
-          "line1": "Kaythye millath street",
-          "postcode": "620020",
-          "country": "India"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Double Slab Burger",
-      "restaurant": "Slab Burgers",
-      "web": "www.slabburgers.com",
-      "description": "taste of hormone-free running cows",
-      "ingredients": [
-        "beef",
-        "caramelized onions",
-        "slab sauce",
-        "pickles",
-        "mushrooms",
-        "tomato",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "47",
-          "line1": "Charles Street West",
-          "line2": "Toronto, Ontario",
-          "postcode": "M4Y 2R4",
-          "country": "Canada"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Du Brown",
-      "restaurant": "Du Brown Burger Café",
-      "web": "https://www.dubrown.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "bacon",
-        "caramelized onions",
-        "cheddar cheese",
-        "barbecue sauce",
-        "onion rings",
-        "jalepeños",
-        "tomato",
-        "lettuce",
-        "chipote mayonaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "rue St Léonard",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Melting Potes",
-      "restaurant": "Melting Potes Nantes",
-      "web": "https://www.meltingpotesnantes.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "poutine",
-        "raclette cheese",
-        "honey mustard sauce",
-        "goats cheese",
-        "crispy onions"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "boulevard de la Prairie au Duc",
-          "line2": "Ile de Nantes, Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Big Fernand",
-      "restaurant": "Big Fernand",
-      "web": "https://bigfernand.com/",
-      "description": "L'atelier du Hamburgé - The burger workshop",
-      "ingredients": [
-        "beef",
-        "sundried tomates",
-        "tatar sauce",
-        "confit onions",
-        "blue cheese",
-        "smokey bacon"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "7",
-          "line1": "rue des Halles",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "3",
-          "line1": "Place de Béthune",
-          "line2": "Lille",
-          "postcode": "59000",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "6",
-          "line1": "place Jean Jaurès",
-          "line2": "Montpellier",
-          "postcode": "34000",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "86",
-          "line1": "Boulevard du Montparnasse",
-          "line2": "Paris",
-          "postcode": "75014",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "55",
-          "line1": "rue de Faubourg Poissonnière",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        },
-        {
-          "addressId": 5,
-          "number": "4",
-          "line1": "rue du Parchemin",
-          "line2": "Strasbourg",
-          "postcode": "67000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "name": "PNY Burger",
-      "restaurant": "PNY Burger",
-      "web": "https://pnyburger.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "poutine",
-        "raclette cheese",
-        "honey mustard sauce",
-        "goats cheese",
-        "crispy onions"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "50",
-          "line1": "rue de Cautartin",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "120",
-          "line1": "rue du Faubourg St Antoine",
-          "line2": "Paris",
-          "postcode": "75012",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "1",
-          "line1": "rue Perrée",
-          "line2": "Paris",
-          "postcode": "75003",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "96",
-          "line1": "rue Oberkampf",
-          "line2": "Paris",
-          "postcode": "75011",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "24",
-          "line1": "rue Pierre Fontaine",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "name": "231 East",
-      "restaurant": "231 East Street",
-      "web": "https://www.231-east.fr/",
-      "description": "True New York style burger in France",
-      "ingredients": [
-        "beef",
-        "smoked bacon",
-        "chicken",
-        "veggie burgers",
-        "brioche bun",
-        "honey mustard sauce",
-        "onion chutney",
-        "pepper sauce",
-        "avacado"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "7",
-          "line1": "rue de la Couronne",
-          "line2": "Aix-en-Provence",
-          "postcode": "13100",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "9",
-          "line1": "faubourg Sainte-Claire",
-          "line2": "Annecy",
-          "postcode": "7400",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "10",
-          "line1": "Grande rue",
-          "line2": "Grenoble",
-          "postcode": "38000",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "2",
-          "line1": "rue de la Pépinière",
-          "line2": "Paris",
-          "postcode": "75008",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "",
-          "line1": "boulevard Géneral de Gaulle",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Cajun Black Bean Burger",
-      "restaurant": "The Chicago Diner",
-      "web": "www.veggiediner.com",
-      "description": "a hearty veggie burger with a kick that goes great with sweet potato fries",
-      "ingredients": [
-        "spicy black bean veggie patty",
-        "sautéed onions",
-        "mushrooms",
-        "spinach",
-        "tomato",
-        "fried jalapeño",
-        "cheddar sauce",
-        "creole mustard"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "3411",
-          "line1": "N Halsted St",
-          "line2": "Chicago, Illinois",
-          "postcode": "60657",
-          "country": "USA"
-        },
-        {
-          "addressId": 1,
-          "number": "2333",
-          "line1": "N Milwaukee Ave",
-          "line2": "Chicago, Illinois",
-          "postcode": "60647",
-          "country": "USA"
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Hatch Green Chile Bacon Burger",
-      "restaurant": "Whataburger",
-      "web": "www.whataburger.com",
-      "description": "burger with hatch green chiles, bacon and cheese",
-      "ingredients": [
-        "beef",
-        "cheese",
-        "bacon",
-        "hatch green chiles",
-        "mayonnaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "984",
-          "line1": "388 E Stacy Rd",
-          "line2": "Allen, TX",
-          "postcode": "75002",
-          "country": "USA"
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "name": "The Street Burgers and Coctail Bar Prague 1",
-      "restaurant": "The Street",
-      "web": "www.thestreet.cz",
-      "description": "American, Bar, International, European, Vegetarian Friendly",
-      "ingredients": [
-        "beef",
-        "cheddar cheese",
-        "blue cheese",
-        "onion",
-        "mozzarella",
-        "bacon",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "11",
-          "line1": "Konviktska",
-          "line2": "Prague",
-          "postcode": "110 00",
-          "country": "The Czech Republic"
+"NewJerseyPublicLibraries":[ 
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Absecon",
+    "libraryName" : "Absecon Public Library",
+    "libraryURL" : "http://www.absecon-newjersey.org/abs_library1.html",
+    "libraryAddress" : "305 New Jersey Ave 08201",
+    "libraryPhone" : "(609) 646-2228"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Allendale",
+    "libraryName" : "Lee Memorial Library",
+    "libraryURL" : "https://leememoriallibrary.org",
+    "libraryAddress" : "500 W. Crescent Avenue 07401",
+    "libraryPhone" : "(201) 327-4338"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Alpha",
+    "libraryName" : "W.H. Walters Free Public Library",
+    "libraryURL" : "http://alphapubliclibrary.com",
+    "libraryAddress" : "1001 East Blvd 08865",
+    "libraryPhone" : "(908) 454-1445"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Asbury Park",
+    "libraryName" : "Asbury Park Free Public Library",
+    "libraryURL" : "https://asbury.ent.sirsi.net/client/en_US/default",
+    "libraryAddress" : "500 First Avenue 07712",
+    "libraryPhone" : "(732) 774-4221"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Atco",
+    "libraryName" : "Waterford Township Public Library",
+    "libraryURL" : "http://waterfordtwplibrary.org",
+    "libraryAddress" : "2204 Atco Avenue 08004",
+    "libraryPhone" : "(856)767-7727"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Atlantic City",
+    "libraryName" : "Atlantic City Free Public Library",
+    "libraryURL" : "http://acfpl.org",
+    "libraryAddress" : "1 N. Tennessee Avenue 08401",
+    "libraryPhone" : "(609) 345-2269"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Atlantic Highlands",
+    "libraryName" : "Atlantic Highlands Public Library",
+    "libraryURL" : "https://monmouthcountylib.org/library-branches/atlantic-highlands",
+    "libraryAddress" : "100 First Avenue 07716",
+    "libraryPhone" : "(732) 291-1956"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Audubon",
+    "libraryName" : "Audubon Free Public Library",
+    "libraryURL" : "http://audubonlibrary.org",
+    "libraryAddress" : "239 Oakland Avenue 08106",
+    "libraryPhone" : "(856) 547-8686"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Avalon",
+    "libraryName" : "Avalon Free Public Library",
+    "libraryURL" : "https://www.avalonfreelibrary.org",
+    "libraryAddress" : "235 32nd Street 08202",
+    "libraryPhone" : "(609) 967-7155"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Avenel",
+    "libraryName" : "Libraries Of Middlesex Automation Consortium",
+    "libraryURL" : "",
+    "libraryAddress" : "1030 St. Georges Ave Suite 203 07001",
+    "libraryPhone" : "(732) 750-2525"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Avon-By-The-Sea",
+    "libraryName" : "Avon Free Public Library",
+    "libraryURL" : "https://www.avonbytheseanj.com/community/library/index.php",
+    "libraryAddress" : "Fifth & Garfield Aves Avon-by-the-Sea, NJ 07717",
+    "libraryPhone" : "(732) 502-4525"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Basking Ridge",
+    "libraryName" : "Bernards Township Library",
+    "libraryURL" : "https://www.bernardslibrary.org",
+    "libraryAddress" : "32 South Maple Avenue Basking Ridge , NJ 07920",
+    "libraryPhone" : "(908) 204-3031"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bayonne",
+    "libraryName" : "Bayonne Free Public Library",
+    "libraryURL" : "http://www.bayonnelibrary.org",
+    "libraryAddress" : "697 Avenue C Bayonne, NJ 07002",
+    "libraryPhone" : "(201) 858-6973"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Beach Haven",
+    "libraryName" : "Beach Haven Free Public Library",
+    "libraryURL" : "https://beachhavenlibrary.org",
+    "libraryAddress" : "247 N Beach Ave, Beach Haven, NJ 08008",
+    "libraryPhone" : "(609) 492-7081"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bedminster",
+    "libraryName" : "Bedminster-Far Hills",
+    "libraryURL" : "http://www.dillonlibrary.org",
+    "libraryAddress" : "2336 Lamington Rd Bedminster, NJ 07921",
+    "libraryPhone" : "(908) 234-2325"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Belleville",
+    "libraryName" : "Belleville Public Library",
+    "libraryURL" : "https://www.bellepl.org/bl",
+    "libraryAddress" : "221 Washington Ave, Belleville, NJ 07109",
+    "libraryPhone" : "(973) 450-3434"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Belmar",
+    "libraryName" : "Belmar Public Library",
+    "libraryURL" : "http://belmarlibrary.org",
+    "libraryAddress" : "517 Tenth Avenue Belmar NJ, 07719",
+    "libraryPhone" : "(732) 681-0775"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Belvidere",
+    "libraryName" : "Belvidere Free Public Library",
+    "libraryURL" : "",
+    "libraryAddress" : "301 Second Street Belvidere NJ 07823",
+    "libraryPhone" : "(908) 475-3941"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Belvidere",
+    "libraryName" : "Warren County Library",
+    "libraryURL" : "https://warrenlib.org",
+    "libraryAddress" : "199 Hardwick Street 07823",
+    "libraryPhone" : "(908) 475-3941"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bergenfield",
+    "libraryName" : "Bergenfield Free Public Library",
+    "libraryURL" : "https://www.bergenfieldlibrary.org",
+    "libraryAddress" : "50 W. Clinton Avenue Bergenfield, NJ 07621",
+    "libraryPhone" : "(201) 387-4040"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Berkeley Heights",
+    "libraryName" : "Berkeley Heights Free Public Library",
+    "libraryURL" : "https://bhplnj.org",
+    "libraryAddress" : "290 Plainfield Avenue Berkeley Heights, NJ 07922",
+    "libraryPhone" : "(908) 464-9333"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Berlin",
+    "libraryName" : "Marie Fleche Memorial Library",
+    "libraryURL" : "http://berlinborolibrary.org",
+    "libraryAddress" : "49 South White Horse Pike Berlin, NJ 08009",
+    "libraryPhone" : "(856) 767-2448"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bernardsville",
+    "libraryName" : "Bernardsville Public Library",
+    "libraryURL" : "https://www.bernardsvillelibrary.org",
+    "libraryAddress" : "1 Anderson Hill Road Bernardsville, NJ 07924",
+    "libraryPhone" : "(908) 766-0118"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Beverly",
+    "libraryName" : "Beverly Free Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/beverly",
+    "libraryAddress" : "441 Cooper Street 08010 Beverly , NJ",
+    "libraryPhone" : "609-387-1259"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bloomfield",
+    "libraryName" : "Bloomfield Public Library",
+    "libraryURL" : "https://www.bplnj.org",
+    "libraryAddress" : "90 Broad Street Bloomfield, NJ 07003",
+    "libraryPhone" : "(973) 566-6200"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bloomingdale",
+    "libraryName" : "Bloomingdale Free Public Library",
+    "libraryURL" : "https://www.bloomingdalelibrary.org",
+    "libraryAddress" : "101 Hamburg Turnpike Bloomindale, NJ 07403",
+    "libraryPhone" : "(973) 838-0077"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bogota",
+    "libraryName" : "Bogota Public Library",
+    "libraryURL" : "https://bogotapubliclibrary.org",
+    "libraryAddress" : "375 Larch Avenue Bogota, NJ 07603",
+    "libraryPhone" : "(201) 488-7185"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Boonton",
+    "libraryName" : "Boonton Holmes Public Library",
+    "libraryURL" : "http://www.boontonholmeslibrary.org",
+    "libraryAddress" : "621 Main St, Boonton, NJ 07005",
+    "libraryPhone" : "(973) 334-2980"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bordentown",
+    "libraryName" : "Bordentown Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/bordentown",
+    "libraryAddress" : "18 East Union St Bordentown, NJ 08505",
+    "libraryPhone" : "(609) 298-0622"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bound Brook",
+    "libraryName" : "Bound Brook Branch",
+    "libraryURL" : "https://sbbnj.com/library",
+    "libraryAddress" : "402 E High St Bound Brook, NJ 08805",
+    "libraryPhone" : "(908) 458-8410"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bradley Beach",
+    "libraryName" : "Bradley Beach Public Library",
+    "libraryURL" : "http://www.bradleybeachlibrary.org",
+    "libraryAddress" : "511 Fourth Avenue Bradley Beach, NJ 07720",
+    "libraryPhone" : "(732) 776-2995"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bradley Beach",
+    "libraryName" : "Bradley Beach Public Library",
+    "libraryURL" : "http://www.bradleybeachlibrary.org",
+    "libraryAddress" : "511 Fourth Avenue Bradley Beach, NJ 07720",
+    "libraryPhone" : "(732) 776-2995"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bridgeton",
+    "libraryName" : "Bridgeton Free Public Library",
+    "libraryURL" : "http://www.cityofbridgeton.com/citylibrary.php",
+    "libraryAddress" : "150 East Commerce Street Bridgeton NJ 08302",
+    "libraryPhone" : "(856) 451-2620"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bridgeton",
+    "libraryName" : "Cumberland County Library",
+    "libraryURL" : "https://www.cclnj.org",
+    "libraryAddress" : "800 E Commerce St, Bridgeton, NJ 08302",
+    "libraryPhone" : "(856) 453-2210"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Bridgewater",
+    "libraryName" : "Somerset County Library",
+    "libraryURL" : "https://sclsnj.org",
+    "libraryAddress" : "1 Vogt Drive Bridgewater, NJ 08807",
+    "libraryPhone" : "(908) 526-4016"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Brielle",
+    "libraryName" : "Brielle Public Library",
+    "libraryURL" : "http://www.briellepubliclibrary.org",
+    "libraryAddress" : "610 South Street Brielle, NJ 08730",
+    "libraryPhone" : "(732) 528-9381"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Brookside",
+    "libraryName" : "Mendham Township Library",
+    "libraryURL" : "http://mendhamtownshiplibrary.org",
+    "libraryAddress" : "2 East Main Street Brookside, NJ 07926",
+    "libraryPhone" : "(973) 543-4018"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Browns Mills",
+    "libraryName" : "Pemberton Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/pemberton",
+    "libraryAddress" : "16 Broadway Browns Mills, NJ 08015",
+    "libraryPhone" : "(609) 893-8262"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Burlington",
+    "libraryName" : "Library Company Of Burlington",
+    "libraryURL" : "https://www.bcls.lib.nj.us/burlington",
+    "libraryAddress" : "23 West Union Street Burlington, NJ 08016",
+    "libraryPhone" : "(609) 386-1273"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Butler",
+    "libraryName" : "Butler Public Library",
+    "libraryURL" : "https://www.butlerlibrary.org",
+    "libraryAddress" : "1 Ace Road Butler, NJ 07405",
+    "libraryPhone" : "(973) 838-3262"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Caldwell",
+    "libraryName" : "Caldwell Free Public Library",
+    "libraryURL" : "https://www.caldwellpl.org",
+    "libraryAddress" : "268 Bloomfield Avenue Caldwell, NJ 07006",
+    "libraryPhone" : "(973) 226-2837"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Camden",
+    "libraryName" : "Camden Free Public Library",
+    "libraryURL" : "https://www.camdencountylibrary.org/nilsa-i-cruz-perez-downtown-branch",
+    "libraryAddress" : "301 North 5th Street Camden, NJ 08102",
+    "libraryPhone" : "(856) 225-6807"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cape May Court House",
+    "libraryName" : "Cape May County Library",
+    "libraryURL" : "https://cat.cmclibrary.org/polaris",
+    "libraryAddress" : "30 Mechanic St, Cape May Court House, NJ 08210",
+    "libraryPhone" : "(609) 463-6350"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Carlstadt",
+    "libraryName" : "William E. Dermody Free Public Library",
+    "libraryURL" : "https://carlstadtlibrary.org",
+    "libraryAddress" : "420 Hackensack Street Carlstadt NJ  07072",
+    "libraryPhone" : "(201) 438-8866"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Carteret",
+    "libraryName" : "Carteret Free Public Library",
+    "libraryURL" : "https://www.carteret.net/library",
+    "libraryAddress" : "100 Cooke Avenue Carteret, NJ",
+    "libraryPhone" : "(732) 541-3830"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cedar Grove",
+    "libraryName" : "Cedar Grove Free Public Library",
+    "libraryURL" : "https://cedargrovenj.org/departments/library",
+    "libraryAddress" : "1 Municipal Plz Cedar Grove, NJ 07009",
+    "libraryPhone" : "(973) 239-1447"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Chatham",
+    "libraryName" : "Chathams Joint Free Public Library",
+    "libraryURL" : "https://chathamlibrary.org",
+    "libraryAddress" : "214 Main Street Chatham,  NJ 07928",
+    "libraryPhone" : "(973) 635-0603"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cherry Hill",
+    "libraryName" : "Cherry Hill Free Public Library",
+    "libraryURL" : "https://chplnj.org",
+    "libraryAddress" : "1100 Kings Highway North, Cherry Hill, NJ 08034",
+    "libraryPhone" : "(856) 667-0300"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Chester",
+    "libraryName" : "Chester Library",
+    "libraryURL" : "https://chesterlib.org",
+    "libraryAddress" : "250 West Main Street Chester, NJ 07930",
+    "libraryPhone" : "(908) 879-7612"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cinnaminson",
+    "libraryName" : "Cinnaminson Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/cinnaminson",
+    "libraryAddress" : "1619 Riverton Road Cinnaminson, NJ 08077",
+    "libraryPhone" : "(856) 829-9340"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Clark",
+    "libraryName" : "Clark Public Library",
+    "libraryURL" : "https://clarklibrary.org",
+    "libraryAddress" : "303 Westfield Avenue Clark, NJ 07066",
+    "libraryPhone" : "(732) 388-5999"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Clementon",
+    "libraryName" : "Clementon Memorial Library",
+    "libraryURL" : "http://www.clementon-nj.com/departments/library",
+    "libraryAddress" : "195 Gibbsboro Road Clementon, NJ 08021",
+    "libraryPhone" : "(856) 783-3233"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cliffside Park",
+    "libraryName" : "Cliffside Park Free Public Library",
+    "libraryURL" : "https://cliffsideparklibrary.org",
+    "libraryAddress" : "505 Palisade Ave, Cliffside Park, NJ 07010",
+    "libraryPhone" : "(201) 945-2867"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Clifton",
+    "libraryName" : "Clifton Public Library",
+    "libraryURL" : "https://cliftonpl.org",
+    "libraryAddress" : "292 Piaget Ave, Clifton, NJ 07011",
+    "libraryPhone" : "(973) 772-5500"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Closter",
+    "libraryName" : "Closter Public Library",
+    "libraryURL" : "https://www.closterpubliclibrary.org",
+    "libraryAddress" : "280 High Street Closter, NJ 07624",
+    "libraryPhone" : "(201) 768-4197"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Collingswood",
+    "libraryName" : "Collingswood Free Public Library",
+    "libraryURL" : "http://www.collingswoodlib.org",
+    "libraryAddress" : "771 Haddon Avenue Collingswood, NJ 08108",
+    "libraryPhone" : "(856) 858-0649"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cranbury",
+    "libraryName" : "Cranbury Public Library",
+    "libraryURL" : "https://www.cranburypubliclibrary.org",
+    "libraryAddress" : "30 N Main Street Cranbury, NJ 08512",
+    "libraryPhone" : "(609) 655-0555"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cranford",
+    "libraryName" : "Cranford Public Library",
+    "libraryURL" : "http://cranfordlibrary.org",
+    "libraryAddress" : "224 Walnut Ave, Cranford NJ 07016",
+    "libraryPhone" : "(908) 709-7272"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Cresskill",
+    "libraryName" : "Cresskill Public Library",
+    "libraryURL" : "https://www.cresskilllibrary.org",
+    "libraryAddress" : "53 Union Avenue Cresskill, NJ 07626",
+    "libraryPhone" : "(201) 567-3521"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Crosswicks",
+    "libraryName" : "Crosswicks Library Company",
+    "libraryURL" : "https://www.bcls.lib.nj.us/crosswicks",
+    "libraryAddress" : "483 Main Street Crosswicks, NJ 08515",
+    "libraryPhone" : "(609) 298-0510"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Delanco",
+    "libraryName" : "Delanco Public Library",
+    "libraryURL" : "http://delancolibrary.org",
+    "libraryAddress" : "1303 Burlington Avenue Delanco, NJ 08075",
+    "libraryPhone" : "(856) 461-6850"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Demarest",
+    "libraryName" : "Demarest Public Library Association",
+    "libraryURL" : "https://www.demarestlibrary.org",
+    "libraryAddress" : "90 Hardenburgh Avennue Demarest, NJ 07627",
+    "libraryPhone" : "(201) 768-8714"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Denville",
+    "libraryName" : "Denville Free Public Library",
+    "libraryURL" : "https://www.denvillelibrary.org",
+    "libraryAddress" : "121 Diamond Spring Rd, Denville, NJ 07834",
+    "libraryPhone" : "(973) 627-6555"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Deptford",
+    "libraryName" : "James H. Johnson Memorial Library",
+    "libraryURL" : "https://www.deptfordpubliclibrary.org",
+    "libraryAddress" : "670 Ward Drive, Deptford, NJ 08096",
+    "libraryPhone" : "(856) 848-9149"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Dover",
+    "libraryName" : "Dover Free Public Library",
+    "libraryURL" : "https://www.dfpl.org",
+    "libraryAddress" : "32 East Clinton Street Dover NJ 07801",
+    "libraryPhone" : "(973) 361-0172"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Dumont",
+    "libraryName" : "Dixon Homestead Library",
+    "libraryURL" : "https://www.dumontlibrary.org",
+    "libraryAddress" : "180 Washington Avenue Dumont, NJ 07628",
+    "libraryPhone" : "(201) 384-2030"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Dunellen",
+    "libraryName" : "Dunellen Free Public Library",
+    "libraryURL" : "http://www.dunellenlibrary.org",
+    "libraryAddress" : "100 New Market Rd Dunellen, NJ 08812",
+    "libraryPhone" : "(732) 968-4585"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "East Brunswick",
+    "libraryName" : "East Brunswick Public Library",
+    "libraryURL" : "https://www.ebpl.org/main/index.cfm",
+    "libraryAddress" : "2 Jean Walling Civic Center East Brunswick, NJ 08816",
+    "libraryPhone" : "(732) 390-6950"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "East Hanover",
+    "libraryName" : "East Hanover Township Free Public Library",
+    "libraryURL" : "http://www.easthanoverlibrary.com",
+    "libraryAddress" : "415 Ridgedale Avenue East Hanover, NJ  07936",
+    "libraryPhone" : "(973) 428-3075"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "East Orange",
+    "libraryName" : "East Orange Public Library",
+    "libraryURL" : "https://www.eopl.org",
+    "libraryAddress" : "21 S. Arlington Avenue East Orange, NJ 07018",
+    "libraryPhone" : "(973) 266-5607"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "East Rutherford",
+    "libraryName" : "East Rutherford Memorial Library",
+    "libraryURL" : "http://eastrutherford.bccls.org",
+    "libraryAddress" : "143 Boiling Springs Avenue East Rutherford, NJ 07073",
+    "libraryPhone" : "(201) 939-3930"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Eatontown",
+    "libraryName" : "Eatontown Public Library",
+    "libraryURL" : "https://monmouthcountylib.org/member-libraries/eatontown",
+    "libraryAddress" : "33 Broad Street Eatontown, NJ 07724",
+    "libraryPhone" : "(732) 389-2665"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Edgewater",
+    "libraryName" : "Edgewater Free Public Library",
+    "libraryURL" : "https://edgewaterlibrary.org",
+    "libraryAddress" : "49 Hudson Avenue Edgewater, New Jersey 07020",
+    "libraryPhone" : "(201) 224-6144"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Edison",
+    "libraryName" : "Edison Township Free Public Library",
+    "libraryURL" : "https://edisonpubliclibrary.org",
+    "libraryAddress" : "340 Plainfield Avenue Edison, NJ 08817",
+    "libraryPhone" : "(732) 287-2298"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Edison",
+    "libraryName" : "Edison Township Free Public Library - North Edison Branch",
+    "libraryURL" : "https://edisonpubliclibrary.org",
+    "libraryAddress" : "777 Grove Ave Edison, NJ 08820",
+    "libraryPhone" : "(732) 548-3045"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Edison",
+    "libraryName" : "Edison Township Free Public Library - “Clara Barton Branch",
+    "libraryURL" : "https://edisonpubliclibrary.org",
+    "libraryAddress" : "141 Hoover Ave Edison, NJ 08837",
+    "libraryPhone" : "(732) 738-0096"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Elizabeth",
+    "libraryName" : "Elizabeth Free Public Library",
+    "libraryURL" : "http://www.elizpl.org",
+    "libraryAddress" : "11 South Broad Street, Elizabeth New Jersey 07202",
+    "libraryPhone" : "(908) 354-6060"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Elmer",
+    "libraryName" : "Elmer Public Library",
+    "libraryURL" : "http://elmerlibrarynj.org",
+    "libraryAddress" : "120 South Main St, PO Box 372, Elmer, NJ",
+    "libraryPhone" : "(856) 358-2014"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Elmwood Park",
+    "libraryName" : "Elmwood Park Free Public Library",
+    "libraryURL" : "https://elmwoodparklibrary.com",
+    "libraryAddress" : "210 Lee Street Elmwood Park, New Jersey 07407",
+    "libraryPhone" : "(201) 796-8888"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Emerson",
+    "libraryName" : "Emerson Public Library",
+    "libraryURL" : "https://www.emersonlibrary.com",
+    "libraryAddress" : "20 Palisades Ave Emerson, NJ 07630",
+    "libraryPhone" : "(201) 261-5604"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Englewood",
+    "libraryName" : "Englewood Free Public Library",
+    "libraryURL" : "http://englewoodlibrary.org",
+    "libraryAddress" : "31 Engle Street, Englewood, NJ 07631",
+    "libraryPhone" : "(201) 568-2215"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fair Haven",
+    "libraryName" : "Fair Haven Public Library",
+    "libraryURL" : "https://fairhavenlib.org",
+    "libraryAddress" : "748 River Road Fair Haven, NJ 07704",
+    "libraryPhone" : "(732) 747-5031"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fair Lawn",
+    "libraryName" : "Maurice M. Pine Free Public Library",
+    "libraryURL" : "https://www.fairlawnlibrary.org",
+    "libraryAddress" : "10-01 Fair Lawn Avenue Fair Lawn, NJ 07410",
+    "libraryPhone" : "(201) 796-3400"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fairfield",
+    "libraryName" : "Anthony Pio Costa Memorial Library",
+    "libraryURL" : "http://www.ffpl.org",
+    "libraryAddress" : "261 Hollywood Avenue Fairfield, NJ 07004",
+    "libraryPhone" : "(973) 227-3575"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fairview",
+    "libraryName" : "Fairview Free Public Library",
+    "libraryURL" : "https://fairviewlibrarynj.org",
+    "libraryAddress" : "213 Anderson Avenue Fairview, NJ 07022",
+    "libraryPhone" : "(201) 943-6244"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fanwood",
+    "libraryName" : "Fanwood Memorial Library",
+    "libraryURL" : "https://www.fanwoodlibrary.org",
+    "libraryAddress" : "5 Forest Rd, Fanwood, NJ 07023",
+    "libraryPhone" : "(908) 322-6400"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Flanders",
+    "libraryName" : "Mount Olive Public Library",
+    "libraryURL" : "https://www.mopl.org",
+    "libraryAddress" : "202 Flanders-Drakestown Road Flanders, NJ 07836",
+    "libraryPhone" : "(973) 691-8686"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Flemington",
+    "libraryName" : "Flemington Free Public Library",
+    "libraryURL" : "https://flemingtonlibrary.org",
+    "libraryAddress" : "118 Main Street, Flemington NJ  08822",
+    "libraryPhone" : "(908) 782-5733"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Flemington",
+    "libraryName" : "Hunterdon County Library",
+    "libraryURL" : "https://hclibrary.us",
+    "libraryAddress" : "314 State Route 12, Bldg. #3 Flemington, NJ 08822",
+    "libraryPhone" : "(908) 788-1444"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Florham Park",
+    "libraryName" : "Florham Park Free Public Library",
+    "libraryURL" : "https://florhamparklib.org",
+    "libraryAddress" : "107 Ridgedale Avenue Florham Park, NJ 07932",
+    "libraryPhone" : "(973) 377-2694"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Fort Lee",
+    "libraryName" : "Fort Lee Free Public Library",
+    "libraryURL" : "https://fortleelibrary.org",
+    "libraryAddress" : "320 Main Street Fort Lee, NJ 07024",
+    "libraryPhone" : "(201) 592-3614"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Franklin Lakes",
+    "libraryName" : "Franklin Lakes Free Public Library",
+    "libraryURL" : "https://www.franklinlakeslibrary.org/index.html",
+    "libraryAddress" : "470 DeKorte Drive Franklin Lakes, NJ 07417",
+    "libraryPhone" : "(201) 891-2224"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Franklinville",
+    "libraryName" : "Franklin Twp Public Library-Gloucester",
+    "libraryURL" : "http://www.franklintwp.org",
+    "libraryAddress" : "1584 Coles Mill Road FranklinVille, NJ 08322",
+    "libraryPhone" : "(856) 694-2833"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Freehold",
+    "libraryName" : "Freehold Public Library",
+    "libraryURL" : "http://www.freeholdboroughnj.gov/Library.html",
+    "libraryAddress" : "28 1/2 East Main St Freehold NJ 07728",
+    "libraryPhone" : "(732) 462-5135"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Frenchtown",
+    "libraryName" : "Frenchtown Public Library",
+    "libraryURL" : "https://frenchtownboro.com/library",
+    "libraryAddress" : "29 2nd St. Frenchtown, NJ 08825",
+    "libraryPhone" : "(908) 996-4788"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Garfield",
+    "libraryName" : "Garfield Free Public Library",
+    "libraryURL" : "https://garfield.bccls.org/contact-us",
+    "libraryAddress" : "500 Midland Ave. Garfield, NJ 07026",
+    "libraryPhone" : "(973) 478-3800"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Garwood",
+    "libraryName" : "Garwood Free Public Library",
+    "libraryURL" : "https://www.youseemore.com/garwood",
+    "libraryAddress" : "411 Third Avenue Garwood, NJ 07027",
+    "libraryPhone" : "(908) 789-1670"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Gibbsboro",
+    "libraryName" : "Gibbsboro Public Library",
+    "libraryURL" : "https://gibbsborotownhall.com/index.php/library",
+    "libraryAddress" : "49 Kirkwood Road Gibbsboro NJ 08026",
+    "libraryPhone" : "(856) 435-3656"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Gibbstown",
+    "libraryName" : "Gloucester County Library - Greenwich Township",
+    "libraryURL" : "https://www.gcls.org",
+    "libraryAddress" : "411 Swedesboro Road Gibbstown, NJ 08027",
+    "libraryPhone" : "(856) 423-0684"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Gillette",
+    "libraryName" : "Long Hill Township Free Public Library",
+    "libraryURL" : "https://longhilllibrary.org",
+    "libraryAddress" : "917 Valley Rd. Gillette, NJ 07933",
+    "libraryPhone" : "(908) 647-2088"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Glassboro",
+    "libraryName" : "Gloucester County Library - Glassboro",
+    "libraryURL" : "https://www.gcls.org/locations/glassboro-branch",
+    "libraryAddress" : "2 Center St Glassboro NJ 08028",
+    "libraryPhone" : "(856) 881-0001"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Glen Ridge",
+    "libraryName" : "Glen Ridge Free Public Library",
+    "libraryURL" : "https://www.glenridgelibrary.org",
+    "libraryAddress" : "240 Ridgewood Avenue Glen Ridge, NJ 07028",
+    "libraryPhone" : "(973) 748-5482"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Glen Rock",
+    "libraryName" : "Glen Rock Public Library",
+    "libraryURL" : "https://www.glenrocklibrary.org",
+    "libraryAddress" : "315 Rock Road Glen Rock NJ 07452",
+    "libraryPhone" : "(201) 670-3970"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Gloucester City",
+    "libraryName" : "Gloucester City Library",
+    "libraryURL" : "https://www.gloucestercitylibrary.org",
+    "libraryAddress" : "50 N Railroad AveGloucester City, NJ 08030",
+    "libraryPhone" : "(856) 456-4181"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hackensack",
+    "libraryName" : "Johnson Free Public Library",
+    "libraryURL" : "https://johnsonlib.org",
+    "libraryAddress" : "274 Main Street. Hackensack, NJ 07601",
+    "libraryPhone" : "(201) 343-4169"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hackettstown",
+    "libraryName" : "Hackettstown Free Public Library",
+    "libraryURL" : "https://hackettstownlibrary.org",
+    "libraryAddress" : "110 Church Street Hackettstown, NJ 07840",
+    "libraryPhone" : "(908) 852-4936"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Haddon Heights",
+    "libraryName" : "Haddon Heights Public Library",
+    "libraryURL" : "https://www.haddonheightslibrary.com",
+    "libraryAddress" : "608 Station Avenue, Haddon Heights, NJ 08035",
+    "libraryPhone" : "(856) 547-7132"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Haddonfield",
+    "libraryName" : "Haddonfield Public Library",
+    "libraryURL" : "https://www.haddonfieldlibrary.org",
+    "libraryAddress" : "60 Haddon Avenue Haddonfield, NJ 08033",
+    "libraryPhone" : "(856) 429-1304"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Haledon",
+    "libraryName" : "Haledon Free Public Library",
+    "libraryURL" : "http://haledonlib.org",
+    "libraryAddress" : "510 Belmont Avenue Haledon, NJ 07508",
+    "libraryPhone" : "(973) 790-3808"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hamilton",
+    "libraryName" : "Hamilton Township Free Public Library",
+    "libraryURL" : "https://hamiltonnjpl.org",
+    "libraryAddress" : "1 Justice Samuel A. Alito, Jr. Way Hamilton, NJ 08619",
+    "libraryPhone" : "(609) 581-4060"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Harrington Park",
+    "libraryName" : "Harrington Park Public Library",
+    "libraryURL" : "https://www.harringtonpark.bccls.org",
+    "libraryAddress" : "10 Herring St., Harrington Park, NJ  07640",
+    "libraryPhone" : "(201) 768-5675"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Harrison",
+    "libraryName" : "Harrison Public Library",
+    "libraryURL" : "http://www2.youseemore.com/harrisonpl/default.asp",
+    "libraryAddress" : "415 Harrison Avenue Harrison, NJ 07029",
+    "libraryPhone" : "(973) 483-2366"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hasbrouck Heights",
+    "libraryName" : "Hasbrouck Heights Free Public Library",
+    "libraryURL" : "https://www.hasbrouckheightslibrary.org",
+    "libraryAddress" : "320 Boulevard Hasbrouck Heights, NJ 07604",
+    "libraryPhone" : "(201) 288-0488"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Haworth",
+    "libraryName" : "Haworth Municipal Library",
+    "libraryURL" : "https://www.haworthlibrary.org",
+    "libraryAddress" : "165 Stevens Place Haworth, NJ 07641",
+    "libraryPhone" : "(201) 384-1020"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hawthorne",
+    "libraryName" : "Louis Bay 2nd Library",
+    "libraryURL" : "https://hawthorne.bccls.org",
+    "libraryAddress" : "345 Lafayette Avenue Hawthorne, NJ 07506",
+    "libraryPhone" : "(973) 427-5745"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "High Bridge",
+    "libraryName" : "High Bridge Public Library",
+    "libraryURL" : "https://hclibrary.us/branches/highbridge.htm",
+    "libraryAddress" : "71 Main Street High Bridge, NJ 08829",
+    "libraryPhone" : "(908) 638-8231"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Highland Park",
+    "libraryName" : "Highland Park Public Library",
+    "libraryURL" : "https://www.hpplnj.org",
+    "libraryAddress" : "31 North 5th Ave. Highland Park, NJ 08904",
+    "libraryPhone" : "(732) 572-2750"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hillsdale",
+    "libraryName" : "Hillsdale Free Public Library",
+    "libraryURL" : "https://hfpl.org",
+    "libraryAddress" : "509 Hillsdale Avenue Hillsdale, NJ  07642",
+    "libraryPhone" : "(201) 358-5072"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hillsborough",
+    "libraryName" : "Hillsborough Branch",
+    "libraryURL" : "https://sclsnj.org",
+    "libraryAddress" : "379 South Branch Rd Hillsborough, NJ 08844",
+    "libraryPhone" : "(908) 458-8420"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hillside",
+    "libraryName" : "Hillside Free Public Library",
+    "libraryURL" : "https://hillsidepl.org",
+    "libraryAddress" : "1409 Liberty Ave, Hillside, NJ 07205",
+    "libraryPhone" : "(973) 923-4413"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hoboken",
+    "libraryName" : "Hoboken Public Library",
+    "libraryURL" : "https://hobokenlibrary.org",
+    "libraryAddress" : "500 Park Avenue Hoboken, NJ 07030",
+    "libraryPhone" : "(201) 420-2346"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ho-Ho-Kus",
+    "libraryName" : "Worth Pinkham Memorial Library",
+    "libraryURL" : "https://www.hohokuslibrary.org",
+    "libraryAddress" : "91 Warren Avenue Ho-Ho-Kus, NJ 07423",
+    "libraryPhone" : "(201) 445-8078"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hopewell",
+    "libraryName" : "Hopewell Public Library",
+    "libraryURL" : "https://www.redlibrary.org",
+    "libraryAddress" : "13 East Broad Street Hopewell, NJ 08525",
+    "libraryPhone" : "(609) 466-1625"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Hurffville",
+    "libraryName" : "Margaret E. Heggan Free Public Library",
+    "libraryURL" : "https://www.hegganlibrary.org",
+    "libraryAddress" : "606 Delsea Dr, Sewell, NJ 08080",
+    "libraryPhone" : "(856) 589-3334"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Irvington",
+    "libraryName" : "Irvington Public Library",
+    "libraryURL" : "http://www.irvingtonpubliclibrary.org",
+    "libraryAddress" : "Civic Square Irvington, NJ 07111",
+    "libraryPhone" : "(973) 372-6400"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Jamesburg",
+    "libraryName" : "Jamesburg Public Library",
+    "libraryURL" : "http://www.jamesburglibrary.org",
+    "libraryAddress" : "229 Gatzmer Avenue Jamesburg, NJ 08831",
+    "libraryPhone" : "(732) 521-0440"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Jersey City",
+    "libraryName" : "Jersey City Free Public Library",
+    "libraryURL" : "https://www.jclibrary.org",
+    "libraryAddress" : "472 Jersey Ave. Jersey City, NJ 07302",
+    "libraryPhone" : "(201) 547-4788"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Kearny",
+    "libraryName" : "Kearny Public Library",
+    "libraryURL" : "https://kearnylibrary.org",
+    "libraryAddress" : "318 Kearny Ave Kearny, NJ 07032",
+    "libraryPhone" : "(201) 998-2666"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Kenilworth",
+    "libraryName" : "Kenilworth Public Library",
+    "libraryURL" : "http://www.kenilworthlibrary.org",
+    "libraryAddress" : "548 Boulevard, Kenilworth NJ 07033",
+    "libraryPhone" : "(908) 276-2451"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Keyport",
+    "libraryName" : "Keyport Free Public Library",
+    "libraryURL" : "https://lmac.ent.sirsi.net/client/en_US/keyport",
+    "libraryAddress" : "109 Broad Street  Keyport, NJ 07735",
+    "libraryPhone" : "(732) 264-0543"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Kinnelon",
+    "libraryName" : "Kinnelon Public Library",
+    "libraryURL" : "http://kinnelonlibrary.org",
+    "libraryAddress" : "132 Kinnelon Rd, Kinnelon, NJ 07405",
+    "libraryPhone" : "(973) 838-1321"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lambertville",
+    "libraryName" : "Lambertville Free Public Librar",
+    "libraryURL" : "https://lambertvillelibrary.org",
+    "libraryAddress" : "6 Lilly Street  Lambertville NJ 08350",
+    "libraryPhone" : "(609) 397-0275"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lawrenceville",
+    "libraryName" : "Mercer County Library",
+    "libraryURL" : "https://mcl.org",
+    "libraryAddress" : "2751 Brunswick Pike Lawrenceville, NJ 08648",
+    "libraryPhone" : "(609) 689-6916"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Leonia",
+    "libraryName" : "Leonia Public Library",
+    "libraryURL" : "https://leonialibrary.org/digital-collections",
+    "libraryAddress" : "227 Fort Lee Road Leonia, NJ 07605",
+    "libraryPhone" : "(201) 592-5770"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lincoln Park",
+    "libraryName" : "Lincoln Park Public Library",
+    "libraryURL" : "https://www.lincolnparklibrary.org",
+    "libraryAddress" : "12 Boonton Tpke, Lincoln Park, NJ 07035",
+    "libraryPhone" : "(973) 694-8283"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Linden",
+    "libraryName" : "Linden Free Public Library",
+    "libraryURL" : "http://www.lindenpl.org",
+    "libraryAddress" : "31 East Henry Street Linden, NJ 07036",
+    "libraryPhone" : "(908) 298-3830"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Linwood",
+    "libraryName" : "Linwood Public Library",
+    "libraryURL" : "https://linwoodlibrary.com",
+    "libraryAddress" : "301 Davis Ave. Linwood, NJ 08221",
+    "libraryPhone" : "(609) 926-7991"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Little Falls",
+    "libraryName" : "Little Falls Public Library",
+    "libraryURL" : "https://www.littlefallslibrary.org",
+    "libraryAddress" : "8 Warren Street, Little Falls, NJ 07424",
+    "libraryPhone" : "(973) 256-2784"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Little Ferry",
+    "libraryName" : "Little Ferry Free Public Library",
+    "libraryURL" : "http://www.littleferrynj.org/library",
+    "libraryAddress" : "239 Liberty Street Little Ferry, NJ 07643",
+    "libraryPhone" : "(201) 641-3721"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Little Silver",
+    "libraryName" : "Little Silver Public Library",
+    "libraryURL" : "https://www.littlesilverlibrary.org",
+    "libraryAddress" : "484 Prospect Avenue Little Silver, NJ 07739",
+    "libraryPhone" : "(732) 747-9649"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Livingston",
+    "libraryName" : "Ruth L. Rockwood Memorial Library",
+    "libraryURL" : "https://www.livingstonlibrary.org",
+    "libraryAddress" : "10 Robert Harp Dr Livingston, NJ 07039",
+    "libraryPhone" : "(973) 992-4600"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lodi",
+    "libraryName" : "Lodi Memorial Library",
+    "libraryURL" : "http://lodi.bccls.org",
+    "libraryAddress" : "One Memorial Drive, Lodi, NJ 07644",
+    "libraryPhone" : "(973) 365-4044"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Logan Township",
+    "libraryName" : "Gloucester County Library - Logan Township",
+    "libraryURL" : "https://www.gcls.org/locations/logan-township-branch",
+    "libraryAddress" : "498 Beckett Road Logan Twp. NJ 08085",
+    "libraryPhone" : "(856) 241-0202"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Long Branch",
+    "libraryName" : "Long Branch Free Public Library - Main Branch",
+    "libraryURL" : "https://www.longbranchlib.org",
+    "libraryAddress" : "328 Broadway Long Branch, NJ 07740",
+    "libraryPhone" : "(732) 222-3900"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Long Branch",
+    "libraryName" : "Long Branch Free Public Library - Elberon Branch",
+    "libraryURL" : "https://www.longbranchlib.org",
+    "libraryAddress" : "168 Lincoln Avenue Long Branch, NJ  07740",
+    "libraryPhone" : "(732) 870-1776"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Long Valley",
+    "libraryName" : "Washington Twp Public Library-Morris",
+    "libraryURL" : "https://wtpl.org",
+    "libraryAddress" : "37 E. Springtown Rd. Long Valley, NJ 07853",
+    "libraryPhone" : "(908) 876-3596"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Long Valley",
+    "libraryName" : "Washington Twp Public Library-Morris",
+    "libraryURL" : "https://wtpl.org",
+    "libraryAddress" : "37 E. Springtown Rd. Long Valley, NJ 07853",
+    "libraryPhone" : "(908) 876-3596"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lyndhurst",
+    "libraryName" : "Lyndhurst Free Public Library",
+    "libraryURL" : "http://www.lyndhurstlibrary.org",
+    "libraryAddress" : "355 Valley Brook Avenue  Lyndhurst, NJ 07071",
+    "libraryPhone" : "(201) 804-2478"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Madison",
+    "libraryName" : "Madison Public Library",
+    "libraryURL" : "http://www.madisonnjlibrary.org",
+    "libraryAddress" : "39 Keep St. Madison, N.J. 07940",
+    "libraryPhone" : "(973) 377-0722"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mahwah Township",
+    "libraryName" : "Mahwah Free Public Library",
+    "libraryURL" : "https://www.mahwahlibrary.org",
+    "libraryAddress" : "100 Ridge Road, Mahwah, NJ, 07430",
+    "libraryPhone" : "(201) 529-2972"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Manalapan",
+    "libraryName" : "Monmouth County Library",
+    "libraryURL" : "https://monmouthcountylib.org",
+    "libraryAddress" : "125 Symmes Dr Manalapan, NJ 07726",
+    "libraryPhone" : "(732) 431-7220"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Manasquan",
+    "libraryName" : "Manasquan Public Library",
+    "libraryURL" : "https://www.manasquan-nj.gov/manasquan-public-library",
+    "libraryAddress" : "201 East Main Street Manasquan, New Jersey 08736",
+    "libraryPhone" : "(732) 223-1503"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Manville",
+    "libraryName" : "Manville Public Library",
+    "libraryURL" : "https://www.manvillenj.org/544/Manville-Public-Library",
+    "libraryAddress" : "325 N Main Street, Manville, NJ 08835",
+    "libraryPhone" : "(908) 722-9722"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Maplewood",
+    "libraryName" : "Maplewood Memorial Library",
+    "libraryURL" : "https://www.maplewoodlibrary.org",
+    "libraryAddress" : "51 Baker Street Maplewood, NJ 07040",
+    "libraryPhone" : "(973) 762-1622"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Maple Shade",
+    "libraryName" : "Maple Shade Library",
+    "libraryURL" : "https://www.mapleshade.com/library",
+    "libraryAddress" : "200 Stiles Avenue Maple Shade, NJ 08052",
+    "libraryPhone" : "(856) 779-9767"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Margate",
+    "libraryName" : "Margate City Public Library",
+    "libraryURL" : "http://www.margatelibrary.org",
+    "libraryAddress" : "8100 Atlantic Ave Margate, NJ 08402",
+    "libraryPhone" : "(609) 822-4700"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Marlton",
+    "libraryName" : "Evesham Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/evesham\n“libraryURL”: “",
+    "libraryAddress" : "984 Tuckerton Road Marlton, NJ 08053",
+    "libraryPhone" : "(856) 983-1444"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Matawan",
+    "libraryName" : "Matawan-Aberdeen Public Library",
+    "libraryURL" : "https://www.matawanaberdeenlibrary.com/main.php",
+    "libraryAddress" : "165 Main St. Matawan, NJ 07747",
+    "libraryPhone" : "(732) 583-9100"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mays Landing",
+    "libraryName" : "Atlantic County Library System",
+    "libraryURL" : "https://atlanticlibrary.org",
+    "libraryAddress" : "40 Farragut Ave., Mays Landing, NJ 08330",
+    "libraryPhone" : "(609) 625-2776"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Maywood",
+    "libraryName" : "Maywood Public Library",
+    "libraryURL" : "https://www.maywoodpubliclibrary.com",
+    "libraryAddress" : "459 Maywood Ave., Maywood, NJ 07607",
+    "libraryPhone" : "(201) 845-2915"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mendham",
+    "libraryName" : "Mendham Free Public Library",
+    "libraryURL" : "https://www.mendhamboroughlibrary.org",
+    "libraryAddress" : "10 Hilltop Road | Mendham, NJ 07945",
+    "libraryPhone" : "(973) 543-4152"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Medford",
+    "libraryName" : "Pinelands Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/pinelands",
+    "libraryAddress" : "39 Allen Avenue Medford, NJ 08055",
+    "libraryPhone" : "(609) 654-6113"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Metuchen",
+    "libraryName" : "Metuchen Public Library",
+    "libraryURL" : "https://www.metuchenlibrary.org",
+    "libraryAddress" : "480 Middlesex Avenue Metuchen, NJ 08840",
+    "libraryPhone" : "(732) 632-8526"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mickleton",
+    "libraryName" : "Gloucester County Library - East Greenwich",
+    "libraryURL" : "https://www.gcls.org/locations/greenwich-township-branch",
+    "libraryAddress" : "535 Kings Hwy E Middletown, NJ 07748",
+    "libraryPhone" : "(856) 423-3480"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Middlesex",
+    "libraryName" : "Middlesex Public LibrarMiddlesex Public Library",
+    "libraryURL" : "http://www.middlesexlibrarynj.org",
+    "libraryAddress" : "1300 Mountain Avenue Middlesex, NJ 08846",
+    "libraryPhone" : "(732) 356-6602"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Middletown",
+    "libraryName" : "Middletown Township Public Library",
+    "libraryURL" : "https://www.mtpl.org",
+    "libraryAddress" : "55 New Monmouth Road Middletown NJ 07748",
+    "libraryPhone" : "(732) 671-3700"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Midland Park",
+    "libraryName" : "Midland Park Memorial Library",
+    "libraryURL" : "https://www.midlandparklibrary.org",
+    "libraryAddress" : "250 Godwin Ave  Midland Park, NJ 07432",
+    "libraryPhone" : "(201) 444-2390"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Milford",
+    "libraryName" : "Holland Township Free Public Library",
+    "libraryURL" : "http://www.hollandlibrary.org",
+    "libraryAddress" : "129 Spring Mills Road, Milford, NJ 08848",
+    "libraryPhone" : "(908) 995-4767"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Milford",
+    "libraryName" : "Milford Public Library",
+    "libraryURL" : "http://www.hollandlibrary.org",
+    "libraryAddress" : "200 Glen Avenue Milford, NJ 08848",
+    "libraryPhone" : "(908) 995-4072"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Milford",
+    "libraryName" : "Milford Public Library",
+    "libraryURL" : "http://www.milfordnjlibrary.org",
+    "libraryAddress" : "40 Frenchtown-Milford Road Milford, NJ 08848",
+    "libraryPhone" : "(908) 995-4072"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Millburn",
+    "libraryName" : "Millburn Free Public Library",
+    "libraryURL" : "http://millburnlibrary.org",
+    "libraryAddress" : "200 Glen Avenue, Millburn, NJ 07041",
+    "libraryPhone" : "(973) 376-1006"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Milltown",
+    "libraryName" : "Milltown Public Library",
+    "libraryURL" : "https://milltownlibrary.weebly.com/index.html",
+    "libraryAddress" : "20 West Church Street Milltown, NJ 08850",
+    "libraryPhone" : "(732) 247-2270"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Millville",
+    "libraryName" : "Millville Public Library",
+    "libraryURL" : "https://www.millvillepubliclibrary.org",
+    "libraryAddress" : "210 Buck Street Millville, NJ 08332",
+    "libraryPhone" : "(856) 825-7087"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Monmouth Beach",
+    "libraryName" : "Monmouth Beach Public Library",
+    "libraryURL" : "https://monmouthbeachlibrary.org",
+    "libraryAddress" : "18 Willow Avenue, Monmouth Beach, New Jersey 07750",
+    "libraryPhone" : "(732) 229-1187"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Monmouth Junction",
+    "libraryName" : "South Brunswick Public Library",
+    "libraryURL" : "https://www.sbpl.info",
+    "libraryAddress" : "110 Kingston Lane Monmouth Junction, NJ 08852",
+    "libraryPhone" : "(732) 329-4000"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Monroe Township",
+    "libraryName" : "Monroe Twp Public Library-Middlesex",
+    "libraryURL" : "http://www.monroetwplibrary.org",
+    "libraryAddress" : "4 Municipal Plaza, Monroe Twp., NJ 08831",
+    "libraryPhone" : "(732) 521-5000"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Montclair",
+    "libraryName" : "Montclair Public Library",
+    "libraryURL" : "https://montclairlibrary.org",
+    "libraryAddress" : "185 Bellevue Avenue Montclair, NJ 07043",
+    "libraryPhone" : "(973) 744-0500"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Montvale",
+    "libraryName" : "Montvale Free Public Library",
+    "libraryURL" : "https://www.montvalelibrarynj.org",
+    "libraryAddress" : "12 Mercedes Drive Suite 100 Montvale, NJ 07645",
+    "libraryPhone" : "(201) 391-5090"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Montville",
+    "libraryName" : "Montville Township Public Library",
+    "libraryURL" : "https://www.montvillelibrary.org",
+    "libraryAddress" : "90 Horseneck Rd Montville, NJ 07045",
+    "libraryPhone" : "(973) 402-0900"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Moorestown",
+    "libraryName" : "Moorestown Library",
+    "libraryURL" : "http://www.moorestownlibrary.org",
+    "libraryAddress" : "111 West Second Street, Moorestown, NJ 08057",
+    "libraryPhone" : "(856) 234-0333"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Morris Plains",
+    "libraryName" : "Morris Plains Library",
+    "libraryURL" : "https://morrisplainslibrary.org",
+    "libraryAddress" : "77 Glenbrook Road Morris Plains, NJ 07950",
+    "libraryPhone" : "(973) 538-2599"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Morristown",
+    "libraryName" : "Morristown-Morris Twp Joint Public Library",
+    "libraryURL" : "https://mmtlibrary.org",
+    "libraryAddress" : "1 Miller Rd., Morristown, NJ",
+    "libraryPhone" : "(973) 538-6161"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mount Arlington",
+    "libraryName" : "Mount Arlington Public Library",
+    "libraryURL" : "https://mountarlingtonlibrary.org",
+    "libraryAddress" : "333 Howard Blvd. Mount Arlington, NJ 07856",
+    "libraryPhone" : "(973) 398-1516"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mount Holly",
+    "libraryName" : "Mount Holly Library And Lyceum",
+    "libraryURL" : "",
+    "libraryAddress" : "307 High St, Mount Holly, NJ 08060",
+    "libraryPhone" : "(609) 267-7111"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mount Laurel",
+    "libraryName" : "Mount Laurel Library",
+    "libraryURL" : "http://www.mtlaurel.lib.nj.us",
+    "libraryAddress" : "100 Walt Whitman Avenue, Mount Laurel, NJ 08054",
+    "libraryPhone" : "(856) 234-7319"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mountain Lakes",
+    "libraryName" : "Mountain Lakes Free Public Library",
+    "libraryURL" : "https://library.mtnlakes.org",
+    "libraryAddress" : "9 Elm Road Mountain Lakes, NJ 07046",
+    "libraryPhone" : "(973) 334-5095"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mountainside",
+    "libraryName" : "Mountainside Free Public Library",
+    "libraryURL" : "http://mountainsidelibrary.org",
+    "libraryAddress" : "1 Constitution Plaza Mountainside, NJ 07092",
+    "libraryPhone" : "(908) 233-0115"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mullica Hill",
+    "libraryName" : "Gloucester County Library - Mullica Hill",
+    "libraryURL" : "https://www.gcls.org/locations/mullica-hill-branch",
+    "libraryAddress" : "389 Wolfert Station Road Mullica Hill NJ 08062",
+    "libraryPhone" : "(856) 223-6000"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Mullica Hill",
+    "libraryName" : "Gloucester County Library - Swedesboro",
+    "libraryURL" : "https://www.gcls.org/locations/swedesboro-branch",
+    "libraryAddress" : "1442 Kings Highway Swedesboro, NJ 08085",
+    "libraryPhone" : "(856) 467-0111"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Neptune",
+    "libraryName" : "Neptune Township Public Library",
+    "libraryURL" : "http://www.neptunepubliclibrary.org",
+    "libraryAddress" : "25 Neptune Blvd, Neptune, NJ 07753",
+    "libraryPhone" : "(732) 775-8241"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "New Brunswick",
+    "libraryName" : "New Brunswick Free Public Library",
+    "libraryURL" : "https://www.nbfpl.org",
+    "libraryAddress" : "60 Livingston Ave New Brunswick NJ 08901",
+    "libraryPhone" : "(732) 745-5108"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "New Gretna",
+    "libraryName" : "Bass River Community Library",
+    "libraryURL" : "http://www.bassriver-nj.org/community-library.html",
+    "libraryAddress" : "11 North Maple Avenue P.O. Box 256 New Gretna, NJ 08224",
+    "libraryPhone" : "(609) 296-4230"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "New Milford",
+    "libraryName" : "New Milford Public Library",
+    "libraryURL" : "http://www.newmilford.njlibraries.org",
+    "libraryAddress" : "200 Dahlia Avenue, New Milford, NJ 07646",
+    "libraryPhone" : "(201) 262-1221"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "New Providence",
+    "libraryName" : "New Providence Memorial Library",
+    "libraryURL" : "https://www.newprovidencelibrary.org",
+    "libraryAddress" : "377 Elkwood Avenue New Providence, NJ 07974",
+    "libraryPhone" : "(908) 665-0311"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "New Vernon",
+    "libraryName" : "Harding Township Library",
+    "libraryURL" : "http://hardinglibrary.org",
+    "libraryAddress" : "19 Blue Mill Road, New Vernon, NJ 07976",
+    "libraryPhone" : "(973) 267-8000"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Newark",
+    "libraryName" : "Newark Public Library",
+    "libraryURL" : "https://npl.org",
+    "libraryAddress" : "5 Washington Street Newark, NJ 07102",
+    "libraryPhone" : "(973) 733-7780"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Newfield",
+    "libraryName" : "Newfield Public Library",
+    "libraryURL" : "https://newfieldpubliclibrary.org",
+    "libraryAddress" : "198 Main Street / P.O. Box 154 Newfield, NY 14867",
+    "libraryPhone" : "(607) 564-3594"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Newfield",
+    "libraryName" : "Newfield Public Library",
+    "libraryURL" : "https://www.gcls.org/locations/newfield-public-library",
+    "libraryAddress" : "115 Catawba Ave, Newfield, NJ 08344",
+    "libraryPhone" : "(856) 697-0415"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Newton",
+    "libraryName" : "Sussex County Library",
+    "libraryURL" : "https://sussexcountylibrary.org",
+    "libraryAddress" : "125 Morris Turnpike Newton, NJ 07860",
+    "libraryPhone" : "(973) 948-3660"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Arlington",
+    "libraryName" : "North Arlington Public Library",
+    "libraryURL" : "https://northarlington.bccls.org",
+    "libraryAddress" : "210 Ridge Road North Arlington, NJ 07031",
+    "libraryPhone" : "(201) 955-5640"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Bergen",
+    "libraryName" : "North Bergen Free Public Library",
+    "libraryURL" : "https://nbpl.org",
+    "libraryAddress" : "8411 Bergenline Avenue North Bergen, NJ 07047",
+    "libraryPhone" : "(201) 869-4715"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Bergen",
+    "libraryName" : "North Bergen Free Public Library - Kennedy Branch",
+    "libraryURL" : "https://nbpl.org",
+    "libraryAddress" : "2123 Kennedy Boulevard North Bergen, NJ 07047",
+    "libraryPhone" : "(201) 869-4715"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Bergen",
+    "libraryName" : "Guttenberg Resource Center",
+    "libraryURL" : "https://nbpl.org",
+    "libraryAddress" : "7002 Boulevard East, Unit M4 Guttenberg, NJ 07093",
+    "libraryPhone" : "(201) 869-4715"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Brunswick",
+    "libraryName" : "North Brunswick Free Public Library",
+    "libraryURL" : "https://northbrunswicklibrary.org",
+    "libraryAddress" : "880 Hermann Rd, North Brunswick, NJ 08902",
+    "libraryPhone" : "(732) 246-3545"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "North Haledon",
+    "libraryName" : "North Haledon Free Public Library",
+    "libraryURL" : "http://www.northhaledonlibrary.org",
+    "libraryAddress" : "129 Overlook Avenue North Haledon, New Jersey 07508",
+    "libraryPhone" : "(973) 427-6213"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Northfield",
+    "libraryName" : "Otto Bruyns Public Library",
+    "libraryURL" : "http://nflibrary.org/index.php?lang=en",
+    "libraryAddress" : "241 W. Mill Rd Northfield, NJ 08225",
+    "libraryPhone" : "(609) 646-4476"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Norwood",
+    "libraryName" : "Norwood Public Library",
+    "libraryURL" : "https://www.nplnj.org",
+    "libraryAddress" : "198 Summit Street, Norwood, NJ 07648",
+    "libraryPhone" : "(201) 768-9555"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Nutley",
+    "libraryName" : "Nutley Free Public Library",
+    "libraryURL" : "https://nutleypubliclibrary.org",
+    "libraryAddress" : "93 Booth Drive Nutley, NJ 07110",
+    "libraryPhone" : "(973) 667-0405"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oak Ridge",
+    "libraryName" : "Jefferson Township Public Library",
+    "libraryURL" : "http://www.jeffersonlibrary.net",
+    "libraryAddress" : "1031 Weldon Rd. Oak Ridge, NJ 07438",
+    "libraryPhone" : "(973) 208-6115"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oakland",
+    "libraryName" : "Oakland Public Library",
+    "libraryURL" : "http://oaklandnjlibrary.org",
+    "libraryAddress" : "2 Municipal Plaza Oakland, NJ 07436",
+    "libraryPhone" : "(210) 337-3742"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oaklyn",
+    "libraryName" : "Oaklyn Memorial Library",
+    "libraryURL" : "https://www.oaklynmemoriallibrary.org",
+    "libraryAddress" : "602 Newton Avenue Oaklyn, NJ 08107",
+    "libraryPhone" : "(856) 858-8226"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ocean City",
+    "libraryName" : "Ocean City Free Public Library",
+    "libraryURL" : "https://www.oceancitylibrary.org",
+    "libraryAddress" : "1735 Simpson Ave, Ocean City, NJ, US, 08226",
+    "libraryPhone" : "(609) 399-2434"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Old Bridge",
+    "libraryName" : "Old Bridge Public Library",
+    "libraryURL" : "http://www.oldbridgelibrary.org",
+    "libraryAddress" : "One Old Bridge Plaza Old Bridge NJ, 08857",
+    "libraryPhone" : "(732) 721-5600"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Old Tappan",
+    "libraryName" : "Old Tappan Free Public Library",
+    "libraryURL" : "https://www.oldtappanlibrary.com",
+    "libraryAddress" : "56 Russell Ave Old Tappan, NJ 07675",
+    "libraryPhone" : "(201) 767-9992"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oldwick",
+    "libraryName" : "Tewksbury Township Public Library",
+    "libraryURL" : "https://www.tewksburylibrary.org",
+    "libraryAddress" : "31 Old Turnpike Rd, Oldwick, NJ 08858",
+    "libraryPhone" : "(908) 439-3761"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oradell",
+    "libraryName" : "Oradell Public Library",
+    "libraryURL" : "https://oradell.bccls.org",
+    "libraryAddress" : "375 Kinderkamack Avenue,  Oradell, NJ 07649",
+    "libraryPhone" : "(201) 262-2613"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Orange",
+    "libraryName" : "The Orange Public Library",
+    "libraryURL" : "http://www.orangepl.org",
+    "libraryAddress" : "348 Main Street Orange, NJ 07050",
+    "libraryPhone" : "(973) 673-0153"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Oxford",
+    "libraryName" : "Oxford Public Library",
+    "libraryURL" : "http://oxford.njlibraries.org",
+    "libraryAddress" : "42 Washington Avenue Oxford NJ 07863",
+    "libraryPhone" : "(908) 453-2625"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Palisades Park",
+    "libraryName" : "Palisades Park Free Public Library",
+    "libraryURL" : "https://www.palparklibrary.org",
+    "libraryAddress" : "257 2nd Street Palisades Park, NJ",
+    "libraryPhone" : "(201) 585-4150"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Paramus",
+    "libraryName" : "Paramus Public Library",
+    "libraryURL" : "https://paramuslibrary.org",
+    "libraryAddress" : "116 East Century Road Paramus, NJ 07652",
+    "libraryPhone" : "(201) 599-1300"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Park Ridge",
+    "libraryName" : "Park Ridge Free Public Library",
+    "libraryURL" : "https://parkridge.bccls.org",
+    "libraryAddress" : "51 Park Avenue Park Ridge, NJ 07656",
+    "libraryPhone" : "(201) 391-5151"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Parlin",
+    "libraryName" : "Sayreville Free Public Library",
+    "libraryURL" : "http://sayrevillelibrary.org",
+    "libraryAddress" : "1050 Washington Road Parlin, NJ 08859",
+    "libraryPhone" : "(732) 727-0212"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Parsippany",
+    "libraryName" : "Parsippany-Troy Hills Public Library - Main Library",
+    "libraryURL" : "https://parsippanylibrary.org",
+    "libraryAddress" : "449 Halsey Road Parsippany, NJ 07054",
+    "libraryPhone" : "(973) 887-5150"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Parsippany",
+    "libraryName" : "Parsippany-Troy Hills Public Library - Lake Hiawatha",
+    "libraryURL" : "https://parsippanylibrary.org",
+    "libraryAddress" : "68 Nokomis Avenue Lake Hiawatha, NJ 07034",
+    "libraryPhone" : "(973) 335-0952"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Parsippany",
+    "libraryName" : "Parsippany-Troy Hills Public Library - Mount Tabor",
+    "libraryURL" : "https://parsippanylibrary.org",
+    "libraryAddress" : "31 Trinity Park Mount Tabor, NJ 07878",
+    "libraryPhone" : "(973) 627-9508"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Passaic",
+    "libraryName" : "Julius Forstmann - Main Library  - Passaic Public Library",
+    "libraryURL" : "https://www.passaicpubliclibrary.org",
+    "libraryAddress" : "195 Gregory Avenue Passaic, NJ 07055",
+    "libraryPhone" : "(973) 779-0474"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Passaic",
+    "libraryName" : "Reid Memorial Branch Library - Passaic Public Library",
+    "libraryURL" : "https://www.passaicpubliclibrary.org",
+    "libraryAddress" : "80 Third Street Passaic, NJ 07055",
+    "libraryPhone" : "(973) 777-6044"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Paterson",
+    "libraryName" : "Paterson Free Public Library",
+    "libraryURL" : "https://patersonpl.org",
+    "libraryAddress" : "250 Broadway Paterson, NJ 07501",
+    "libraryPhone" : "(973) 321-1223"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Paulsboro",
+    "libraryName" : "Gill Memorial Library",
+    "libraryURL" : "http://www.gillmemoriallibrary.org",
+    "libraryAddress" : "145 E. Broad Street, Paulsboro, NJ 08066",
+    "libraryPhone" : "(856) 432-5155"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pennington",
+    "libraryName" : "Pennington Free Public Library",
+    "libraryURL" : "https://www.penningtonlibrary.org",
+    "libraryAddress" : "30 North Main St Pennington, NJ 08534",
+    "libraryPhone" : "(609) 737-0404"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pennsauken",
+    "libraryName" : "Pennsauken Free Public Library",
+    "libraryURL" : "http://pennsaukenlibrary.org",
+    "libraryAddress" : "5605 Crescent Blvd., Pennsauken NJ, 08110",
+    "libraryPhone" : "(856) 665-5959"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pennsville",
+    "libraryName" : "Pennsville Public Library",
+    "libraryURL" : "http://www.pennsvillelibrary.org",
+    "libraryAddress" : "190 South Broadway, Pennsville NJ 08070",
+    "libraryPhone" : "(856) 678-5473"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Perth Amboy",
+    "libraryName" : "Perth Amboy Free Public Library",
+    "libraryURL" : "https://www.perthamboynj.org/library",
+    "libraryAddress" : "196 Jefferson Street Perth Amboy, NJ",
+    "libraryPhone" : "(732) 826-2600"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Phillipsburg",
+    "libraryName" : "Phillipsburg Free Public Library",
+    "libraryURL" : "https://www.pburglib.org",
+    "libraryAddress" : "200 Broubalow Way, Phillipsburg, NJ 08865",
+    "libraryPhone" : "(908) 454-3712"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Piscataway",
+    "libraryName" : "Piscataway Public Library - Kennedy Branch",
+    "libraryURL" : "https://piscatawaylibrary.org",
+    "libraryAddress" : "500 Hoes Ln, Piscataway, NJ 08854",
+    "libraryPhone" : "(732) 463-1633"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Piscataway",
+    "libraryName" : "Piscataway Public Library",
+    "libraryURL" : "https://piscatawaylibrary.org",
+    "libraryAddress" : "20 Murray Ave, Piscataway, NJ 08854",
+    "libraryPhone" : "(732) 752-1166"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pitman",
+    "libraryName" : "McCowan Memorial Library",
+    "libraryURL" : "http://www.mccowan-pitman.org",
+    "libraryAddress" : "15 Pitman Ave. Pitman, NJ 08071",
+    "libraryPhone" : "(856) 589-1656"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Plainfield",
+    "libraryName" : "Plainfield Free Public Library",
+    "libraryURL" : "http://www.plainfieldlibrary.info",
+    "libraryAddress" : "800 Park Avenue Plainfield, NJ 07060",
+    "libraryPhone" : "(908) 757-1111"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Plainsboro",
+    "libraryName" : "Plainsboro Free Public Library",
+    "libraryURL" : "https://plainsborolibrary.org",
+    "libraryAddress" : "9 Van Doren Street, Plainsboro NJ 08536",
+    "libraryPhone" : "(609) 275-2897"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pompton Lakes",
+    "libraryName" : "Pompton Lakes Borough Free Public Library",
+    "libraryURL" : "https://www.pomptonlakeslibrary.org",
+    "libraryAddress" : "333 Wanaque Avenue Pompton Lakes, NJ 07442",
+    "libraryPhone" : "(973) 835-0482"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Pompton Plains",
+    "libraryName" : "Pequannock Township Public Library",
+    "libraryURL" : "https://pequannocklibrary.org",
+    "libraryAddress" : "477 Newark Pompton Tpke.  Pompton Plains, NJ 07444",
+    "libraryPhone" : "(973) 835-7460"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Princeton",
+    "libraryName" : "Princeton Public Library",
+    "libraryURL" : "https://princetonlibrary.org",
+    "libraryAddress" : "65 Witherspoon Princeton, NJ 08542",
+    "libraryPhone" : "(609) 924-8822"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rahway",
+    "libraryName" : "Rahway Public Library",
+    "libraryURL" : "https://www.rahwaylibrary.org",
+    "libraryAddress" : "2 City Hall Plaza Rahway, NJ 07065",
+    "libraryPhone" : "(732) 340-1551"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ramsey",
+    "libraryName" : "Ramsey Free Public Library",
+    "libraryURL" : "https://www.ramseylibrary.org",
+    "libraryAddress" : "30 Wyckoff Avenue Ramsey, NJ 07446",
+    "libraryPhone" : "(201) 327-1445"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Randolph",
+    "libraryName" : "Randolph Township Free Public Library",
+    "libraryURL" : "https://www.randolphnj.org/library",
+    "libraryAddress" : "502 Millbrook Avenue Randolph, NJ 07869-3799",
+    "libraryPhone" : "(973) 895-3556"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Raritan",
+    "libraryName" : "Raritan Public Library",
+    "libraryURL" : "https://www.raritanlibrary.org",
+    "libraryAddress" : "54 East Somerset Street  Raritan, NJ 08869",
+    "libraryPhone" : "(908) 725-0413"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Red Bank",
+    "libraryName" : "Red Bank Public Library",
+    "libraryURL" : "https://www.redbanklibrary.org",
+    "libraryAddress" : "84 West Front St. Red Bank, NJ 07701",
+    "libraryPhone" : "(732) 842-0690"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ridgefield",
+    "libraryName" : "Ridgefield Free Public Library",
+    "libraryURL" : "https://www.ridgefieldpubliclibrary.com",
+    "libraryAddress" : "527 Morse Avenue, Ridgefield, NJ 07657",
+    "libraryPhone" : "(201) 941-0192"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ridgefield Park",
+    "libraryName" : "Ridgefield Park Public Library",
+    "libraryURL" : "https://www.ridgefieldparkpubliclibrary.org",
+    "libraryAddress" : "107 Cedar Street Ridgefield Park New Jersey 07660",
+    "libraryPhone" : "(201) 641-0689"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ridgewood",
+    "libraryName" : "Ridgewood Public Library",
+    "libraryURL" : "https://www.ridgewoodlibrary.or",
+    "libraryAddress" : "125 North Maple Avenue Ridgewood, NJ 07450",
+    "libraryPhone" : "(201) 670-5600"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Ringwood",
+    "libraryName" : "Ringwood Public Library",
+    "libraryURL" : "https://www.ringwoodlibrary.org",
+    "libraryAddress" : "30 Cannici Drive - Ringwood, NJ 07456",
+    "libraryPhone" : "(973) 962-6256"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "River Edge",
+    "libraryName" : "River Edge Free Public Library",
+    "libraryURL" : "https://www.riveredgepubliclibrary.org",
+    "libraryAddress" : "685 Elm Avenue, River Edge, NJ 07661",
+    "libraryPhone" : "(201) 261-1663"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "River Vale",
+    "libraryName" : "River Vale Public Library",
+    "libraryURL" : "https://www.rivervalelibrary.org",
+    "libraryAddress" : "412 Rivervale Road River Vale, NJ 07675",
+    "libraryPhone" : "(201) 391-2323"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Riverdale",
+    "libraryName" : "Riverdale Public Library",
+    "libraryURL" : "http://www.riverdalelibrary.org",
+    "libraryAddress" : "93 Newark Pompton Turnpike Riverdale, NJ 07457",
+    "libraryPhone" : "(973) 835-5044"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Riverside",
+    "libraryName" : "Riverside Public Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/riverside",
+    "libraryAddress" : "10 Zurbrugg Way  Riverside , NJ 08075",
+    "libraryPhone" : "(856) 461-6922"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Riverton",
+    "libraryName" : "Riverton Library",
+    "libraryURL" : "https://rivertonfreelibrary.org",
+    "libraryAddress" : "306 Main Street Riverton, NJ 08077",
+    "libraryPhone" : "(856) 829-2476"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rochelle Park",
+    "libraryName" : "Rochelle Park Public Library",
+    "libraryURL" : "https://www.rplibrary.org",
+    "libraryAddress" : "151 W Passaic Street Rochelle Park, NJ 07662",
+    "libraryPhone" : "(201) 587-7730"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rockaway",
+    "libraryName" : "Rockaway Borough Free Public Library - Main Library",
+    "libraryURL" : "https://www.rtlibrary.org",
+    "libraryAddress" : "61 Mt Hope Rd  Rockaway, NJ 07866",
+    "libraryPhone" : "(973) 627-2344"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rockaway",
+    "libraryName" : "Rockaway Borough Free Public Library - Hibernia Branch",
+    "libraryURL" : "https://www.rtlibrary.org",
+    "libraryAddress" : "419 Green Pond Rd  Rockaway, NJ 07866",
+    "libraryPhone" : "(973) 627-6872"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Roebling",
+    "libraryName" : "Florence Township Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us/florence",
+    "libraryAddress" : "1350 Hornberger Ave, Roebling, NJ 08554",
+    "libraryPhone" : "(609) 499-0143"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Roseland",
+    "libraryName" : "Roseland Free Public Library",
+    "libraryURL" : "http://roselandpubliclibrary.org",
+    "libraryAddress" : "20 Roseland Ave, Roseland, NJ 07068",
+    "libraryPhone" : "(973) 226-8636"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Roselle",
+    "libraryName" : "Roselle Free Public Library",
+    "libraryURL" : "https://www.rosellelibrary.org",
+    "libraryAddress" : "104 West Fourth Avenue Roselle, NJ 07203-2057",
+    "libraryPhone" : "(908) 245-5809"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Roselle Park",
+    "libraryName" : "Roselle Park Veterans Memorial Library",
+    "libraryURL" : "https://lmac.ent.sirsi.net/client/en_US/rospark",
+    "libraryAddress" : "404 Chestnut Street Roselle Park, NJ 07204",
+    "libraryPhone" : "(908) 245-2456"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rumson",
+    "libraryName" : "Oceanic Free Library",
+    "libraryURL" : "https://oceaniclib.org",
+    "libraryAddress" : "109 Avenue of Two Rivers Rumson NJ 07760",
+    "libraryPhone" : "(732) 842-2692"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Runnemede",
+    "libraryName" : "Runnemede Public Library",
+    "libraryURL" : "https://www.runnemedepubliclibrary.org",
+    "libraryAddress" : "2 Broadway & BHP P.O. Box 119 Runnemede, NJ 08078",
+    "libraryPhone" : "(856) 939-4688"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Rutherford",
+    "libraryName" : "Rutherford Free Public Library",
+    "libraryURL" : "https://www.rutherfordlibrary.org",
+    "libraryAddress" : "150 Park Ave. Rutherford NJ 07070",
+    "libraryPhone" : "(201) 939-8600"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Saddle Brook",
+    "libraryName" : "Saddle Brook Free Public Library",
+    "libraryURL" : "https://saddlebrook.bccls.org",
+    "libraryAddress" : "340 Mayhill St Saddle Brook, New Jersey 07663",
+    "libraryPhone" : "(201) 843-3287"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Salem",
+    "libraryName" : "Salem Free Public Library",
+    "libraryURL" : "http://www.mysalemlibrary.org",
+    "libraryAddress" : "112 W. Broadway, Salem, NJ 08079",
+    "libraryPhone" : "(856) 935-0526"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Scotch Plains",
+    "libraryName" : "Scotch Plains Public Library",
+    "libraryURL" : "https://www.scotlib.org",
+    "libraryAddress" : "1927 Bartle Ave, Scotch Plains, NJ 07076",
+    "libraryPhone" : "(908) 322-5007"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Sea Girt",
+    "libraryName" : "Sea Girt Library",
+    "libraryURL" : "https://www.facebook.com/SeaGirtLibrary",
+    "libraryAddress" : "801 The Plaza, Sea Girt, NJ 08750",
+    "libraryPhone" : "(732) 449-9433"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Secaucus",
+    "libraryName" : "Secaucus Free Public Library",
+    "libraryURL" : "https://www.secaucuslibrary.org",
+    "libraryAddress" : "1379 Paterson Plank Rd, Secaucus, NJ 07094",
+    "libraryPhone" : "(201) 330-2084"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Somerset",
+    "libraryName" : "Franklin Twp Public Library-Somerset",
+    "libraryURL" : "http://www.franklintwp.org",
+    "libraryAddress" : "485 DeMott Lane Somerset, NJ 08873",
+    "libraryPhone" : "(732) 873-8700"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Franklin Park",
+    "libraryName" : "Franklin Twp Public Library - Franklin Park",
+    "libraryURL" : "http://www.franklintwp.org/location.php#DeMott",
+    "libraryAddress" : "3391 Rt. 27 S. Ste. 101 Franklin Park, NJ 08823",
+    "libraryPhone" : "(732) 873-8700"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Somerville",
+    "libraryName" : "Somerville Public Library",
+    "libraryURL" : "https://sclsnj.org",
+    "libraryAddress" : "35 West End Ave. Somerville, NJ 08876",
+    "libraryPhone" : "(908) 458-8445"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "South Amboy",
+    "libraryName" : "Dowdell Library Of South Amboy",
+    "libraryURL" : "http://www.southamboynj.gov/Departments/library",
+    "libraryAddress" : "100 Harold G. Hoffman Plaza, South Amboy, NJ 08879",
+    "libraryPhone" : "(732) 721-6060"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "South Orange",
+    "libraryName" : "South Orange Public Library",
+    "libraryURL" : "https://www.sopl.org",
+    "libraryAddress" : "65 Scotland Rd South Orange, NJ 07079",
+    "libraryPhone" : "(973) 762-0230"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "South Plainfield",
+    "libraryName" : "South Plainfield Free Public Library",
+    "libraryURL" : "http://www.southplainfield.lib.nj.us”",
+    "libraryAddress" : "2484 Plainfield Avenue  South Plainfield, NJ 07080",
+    "libraryPhone" : "(908) 754-7885"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "South River",
+    "libraryName" : "South River Public Library",
+    "libraryURL" : "https://www.southriverlibrary.org",
+    "libraryAddress" : "55 Appleby Avenue, South River, NJ 08882",
+    "libraryPhone" : "(732) 254-2488"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Sparta",
+    "libraryName" : "Sparta Public Library",
+    "libraryURL" : "https://spartalibrary.com",
+    "libraryAddress" : "22 Woodport Road, Sparta, NJ 07871",
+    "libraryPhone" : "(973) 729-3101"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Spotswood",
+    "libraryName" : "Spotswood Public Library",
+    "libraryURL" : "http://spotslibrary.org",
+    "libraryAddress" : "548 Main Street Spotswood, NJ 08884",
+    "libraryPhone" : "(732) 251-1515"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Spring Lake",
+    "libraryName" : "Spring Lake Public Library",
+    "libraryURL" : "https://www.springlakelibrary.org",
+    "libraryAddress" : "1501 Third Avenue, Spring Lake, NJ 07762",
+    "libraryPhone" : "(732) 449-6654"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Springfield",
+    "libraryName" : "Springfield Free Public Library",
+    "libraryURL" : "http://springfieldpubliclibrary.com",
+    "libraryAddress" : "66 Mountain Avenue Springfield, NJ 07081",
+    "libraryPhone" : "(973) 376-4930"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Stratford",
+    "libraryName" : "Stratford Public Library",
+    "libraryURL" : "https://www.stratfordlibrarynj.org",
+    "libraryAddress" : "303 Union Ave, Stratford NJ 08084",
+    "libraryPhone" : "(856) 783-0602"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Succasunna",
+    "libraryName" : "Roxbury Township Public Library",
+    "libraryURL" : "https://roxburylibrary.org",
+    "libraryAddress" : "103 Main Street Succasunna, NJ 07876",
+    "libraryPhone" : "(973) 584-2400"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Summit",
+    "libraryName" : "Summit Free Public Library",
+    "libraryURL" : "https://www.summitlibrary.org",
+    "libraryAddress" : "75 Maple St, Summit, NJ 07901",
+    "libraryPhone" : "(908) 273-0350"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Teaneck",
+    "libraryName" : "Teaneck Public Library",
+    "libraryURL" : "https://teanecklibrary.org",
+    "libraryAddress" : "840 Teaneck Road Teaneck, NJ 07666",
+    "libraryPhone" : "(201) 837-4171"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Tenafly",
+    "libraryName" : "Tenafly Free Public Library",
+    "libraryURL" : "https://www.tenaflylibrary.org",
+    "libraryAddress" : "100 Riveredge Rd. Tenafly, NJ 07670",
+    "libraryPhone" : "(201) 568-8680"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Tinton Falls",
+    "libraryName" : "Tinton Falls Public Library",
+    "libraryURL" : "https://www.tintonfallslibrary.com",
+    "libraryAddress" : "664 Tinton Ave, Tinton Falls, NJ 07724",
+    "libraryPhone" : "(732) 542-3110"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Little Falls",
+    "libraryName" : "Free Public Library of Little Falls",
+    "libraryURL" : "https://www.littlefallslibrary.org",
+    "libraryAddress" : "8 Warren St, Little Falls, NJ 07424",
+    "libraryPhone" : "(973) 256-2784"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Toms River",
+    "libraryName" : "Ocean County Library",
+    "libraryURL" : "http://theoceancountylibrary.org",
+    "libraryAddress" : "101 Washington Street Toms River, NJ 08753",
+    "libraryPhone" : "(732)349-6200"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Brick",
+    "libraryName" : "Ocean County Library",
+    "libraryURL" : "http://theoceancountylibrary.org",
+    "libraryAddress" : "301 Chambers Bridge Rd, Brick, NJ 08723",
+    "libraryPhone" : "(732) 477-4513"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Lakewood",
+    "libraryName" : "Ocean County Library",
+    "libraryURL" : "http://theoceancountylibrary.org",
+    "libraryAddress" : "301 Lexington Ave, Lakewood, NJ 08701",
+    "libraryPhone" : "(732) 363-1435"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Totowa",
+    "libraryName" : "Dwight D. Eisenhower Library",
+    "libraryURL" : "https://www.totowapl.org",
+    "libraryAddress" : "537 Totowa Road Totowa, NJ 07512",
+    "libraryPhone" : "(973) 790-3265"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Trenton",
+    "libraryName" : "Trenton Free Public Library",
+    "libraryURL" : "https://trentonlib.org",
+    "libraryAddress" : "120 Academy Street, Trenton, NJ 08608",
+    "libraryPhone" : "(609) 392-7188"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Twp. Of Washington",
+    "libraryName" : "Washington Twp Public Library-Bergen",
+    "libraryURL" : "https://wtpl.org",
+    "libraryAddress" : "144 Woodfield Rd, Township Of Washington, NJ 07676",
+    "libraryPhone" : "(201)664-4586"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Union City",
+    "libraryName" : "Union Free Public Library",
+    "libraryURL" : "https://uplnj.org",
+    "libraryAddress" : "1980 Morris Avenue, Union, NJ 07083",
+    "libraryPhone" : "(908) 851-5450"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Union Beach",
+    "libraryName" : "Union Beach Memorial Library",
+    "libraryURL" : "https://www.sites.google.com/site/ublibrary07735/home",
+    "libraryAddress" : "810 Union Ave, Union Beach, NJ 07735",
+    "libraryPhone" : "(732) 264 3792"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Vauxhall",
+    "libraryName" : "Vauxhall Branch",
+    "libraryURL" : "https://uplnj.org",
+    "libraryAddress" : "123 Hilton Avenue, Vauxhall, NJ 07088",
+    "libraryPhone" : "(908) 851-5451"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Upper Saddle River",
+    "libraryName" : "Upper Saddle River Public Library",
+    "libraryURL" : "https://uppersaddleriverlibrary.org",
+    "libraryAddress" : "245 Lake St, Upper Saddle River, NJ 0745",
+    "libraryPhone" : "(201) 327-2583"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Verona",
+    "libraryName" : "Verona Free Public Library",
+    "libraryURL" : "https://www.veronalibrary.org",
+    "libraryAddress" : "17 Gould St, Verona, NJ 07044",
+    "libraryPhone" : "(973) 857-4848"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Vincentown",
+    "libraryName" : "Sally Stretch Keen Memorial Library",
+    "libraryURL" : "https://vincentownlibrary.org",
+    "libraryAddress" : "94 Main St, Southampton, NJ 08088",
+    "libraryPhone" : "(609) 859-3598"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Vineland",
+    "libraryName" : "Vineland Public Library",
+    "libraryURL" : "http://vineland.lib.nj.us",
+    "libraryAddress" : "1058 E. Landis Ave. Vineland, NJ 08360",
+    "libraryPhone" : "(856) 794-4244"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Voorhees",
+    "libraryName" : "Camden County Library",
+    "libraryURL" : "https://www.camdencountylibrary.org/voorhees-branch",
+    "libraryAddress" : "203 Laurel Road Voorhees, NJ 08043",
+    "libraryPhone" : "(856) 772-1636"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Waldwick",
+    "libraryName" : "Waldwick Public Library",
+    "libraryURL" : "https://www.waldwicklibrary.org",
+    "libraryAddress" : "19 E. Prospect St.  Waldwick, NJ 07463",
+    "libraryPhone" : "(201) 652-5104"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wallington",
+    "libraryName" : "John F. Kennedy Memorial Library",
+    "libraryURL" : "https://www.wallingtonpubliclibrary.or",
+    "libraryAddress" : "92 Hathaway Street Wallington, NJ 07057",
+    "libraryPhone" : "(973)471-1692"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wanaque",
+    "libraryName" : "Wanaque Borough Free Public Library",
+    "libraryURL" : "https://www.wanaquelibrary.org",
+    "libraryAddress" : "616 Ringwood Ave Wanaque NJ 07465",
+    "libraryPhone" : "(973) 839-4434"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Washington",
+    "libraryName" : "Washington Public Library",
+    "libraryURL" : "http://www.washingtonboro-nj.gov/public_library.html",
+    "libraryAddress" : "20 Carlton Avenue, Washington, NJ 07882",
+    "libraryPhone" : "(908) 689-0201"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wayne",
+    "libraryName" : "Wayne Public Library",
+    "libraryURL" : "https://waynepubliclibrary.org",
+    "libraryAddress" : "461 Valley Road, Wayne, NJ 07470",
+    "libraryPhone" : "(973) 694-4272"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Weehawken",
+    "libraryName" : "Weehawken Free Public Library",
+    "libraryURL" : "http://www.weehawken-nj.us/library.html",
+    "libraryAddress" : "49 Hauxhurst Avenue Weehawken, NJ 07086",
+    "libraryPhone" : "(201) 863-7823"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wenonah",
+    "libraryName" : "Wenonah Free Public Library",
+    "libraryURL" : "http://www.wenonahlibrary.com",
+    "libraryAddress" : "101 E. Mantua Avenue Wenonah, NJ 08090",
+    "libraryPhone" : "(856) 468-6323"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "West Caldwell",
+    "libraryName" : "West Caldwell Public Library",
+    "libraryURL" : "https://wcplnj.org",
+    "libraryAddress" : "30 Clinton Rd, West Caldwell, NJ 07006",
+    "libraryPhone" : "(973) 226-5441"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "West Deptford",
+    "libraryName" : "West Deptford Free Public Library",
+    "libraryURL" : "http://www.westdeptford.lib.nj.us",
+    "libraryAddress" : "420 Crown Point Road, West Deptford, NJ 08086",
+    "libraryPhone" : "(856) 845-5593"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "West Long Branch",
+    "libraryName" : "West Long Branch Public Library",
+    "libraryURL" : "https://monmouthcountylib.org/library-branches/west-long-branch",
+    "libraryAddress" : "95 Poplar Ave, West Long Branch, NJ 07764",
+    "libraryPhone" : "(732) 222-5993"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "West Milford",
+    "libraryName" : "West Milford Township Library",
+    "libraryURL" : "https://www.wmtl.org",
+    "libraryAddress" : "1470 Union Valley Road, West Milford, NJ 07480",
+    "libraryPhone" : "(973) 728-2820"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "West Orange",
+    "libraryName" : "West Orange Free Public Library",
+    "libraryURL" : "https://www.wopl.org",
+    "libraryAddress" : "46 Mount Pleasant Avenue West Orange, NJ 07052",
+    "libraryPhone" : "(973) 736-0198"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Westampton",
+    "libraryName" : "Burlington County Library",
+    "libraryURL" : "https://www.bcls.lib.nj.us",
+    "libraryAddress" : "5 Pioneer Boulevard Westampton, NJ 08060",
+    "libraryPhone" : "(609) 267-9660"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Westfield",
+    "libraryName" : "Westfield Memorial Library",
+    "libraryURL" : "https://wmlnj.org",
+    "libraryAddress" : "550 East Broad Street, Westfield, NJ 07090",
+    "libraryPhone" : "(908) 789-4090"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Westville",
+    "libraryName" : "Westville Public Library",
+    "libraryURL" : "http://westvillelibrary.com",
+    "libraryAddress" : "1035 Broadway, Westville, NJ 08093",
+    "libraryPhone" : "(856) 456-0357"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Westwood",
+    "libraryName" : "Westwood Free Public Library",
+    "libraryURL" : "https://www.westwoodpubliclibrary.org",
+    "libraryAddress" : "49 Park Ave Westwood, NJ 07675",
+    "libraryPhone" : "(201) 664-0583"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wharton",
+    "libraryName" : "Wharton Public Library",
+    "libraryURL" : "http://www.whartonlibrary.org",
+    "libraryAddress" : "15 S Main St, Wharton, NJ 07885",
+    "libraryPhone" : "(973) 361-1333"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Whippany",
+    "libraryName" : "Morris County Library",
+    "libraryURL" : "https://mclib.info",
+    "libraryAddress" : "30 East Hanover Ave, Whippany, NJ 07981",
+    "libraryPhone" : "(973) 285-6930"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Whippany",
+    "libraryName" : "Whippanong Library-Hanover Township",
+    "libraryURL" : "https://www.whippanong.org",
+    "libraryAddress" : "1000 Route 10 Whippany, NJ 07981",
+    "libraryPhone" : "(973) 428-2460"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Williamstown",
+    "libraryName" : "Monroe Twp Public Library-Gloucester",
+    "libraryURL" : "http://www.monroetwplibrary.org",
+    "libraryAddress" : "713 Marsha Ave, Williamstown, NJ 08094",
+    "libraryPhone" : "(856) 629-1212"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Willingboro",
+    "libraryName" : "Willingboro Public Library",
+    "libraryURL" : "https://willingboro.org",
+    "libraryAddress" : "220 Willingboro Parkway Willingboro, NJ 08046",
+    "libraryPhone" : "(609) 877-6668"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Woodbridge",
+    "libraryName" : "Woodbridge Public Library",
+    "libraryURL" : "http://woodbridgelibrary.org",
+    "libraryAddress" : "George Frederick Plaza, Woodbridge NJ 07095",
+    "libraryPhone" : "(732) 634-4450"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Woodbury",
+    "libraryName" : "Woodbury Public Library",
+    "libraryURL" : "https://www.woodburylibrary.org",
+    "libraryAddress" : "33 Delaware Street Woodbury, NJ 08096",
+    "libraryPhone" : "(856) 845-2611"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Woodland Park",
+    "libraryName" : "Alfred H. Baumann Library-West Paterson",
+    "libraryURL" : "https://www.abwplibrary.org",
+    "libraryAddress" : "7 Brophy Lane Woodland Park, NJ 07424",
+    "libraryPhone" : "(973) 345-8120"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wood-Ridge",
+    "libraryName" : "Wood-Ridge Memorial Library",
+    "libraryURL" : "https://woodridgememoriallibrary.org",
+    "libraryAddress" : "231 Hackensack St. Wood-Ridge, NJ 07075",
+    "libraryPhone" : "(201) 438-2455"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Woodstown",
+    "libraryName" : "Woodstown-Pilesgrove Library",
+    "libraryURL" : "https://www.woodstownlibrary.org",
+    "libraryAddress" : "14 School Lane  Woodstown, NJ 08098",
+    "libraryPhone" : "(856) 769-0098"
+  },
+  {
+    "libraryState" : "New Jersey",
+    "libraryCity" : "Wyckoff",
+    "libraryName" : "Wyckoff Free Public Library",
+    "libraryURL" : "https://wyckofflibrary.org",
+    "libraryAddress" : "200 Woodland Ave Wyckoff, NJ 07481",
+    "libraryPhone" : "(201) 891-4866"
         }
       ]
     }
-  ]
-}
+  
