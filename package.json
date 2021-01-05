@@ -1,23 +1,30 @@
 {
-  "name": "burger-api",
-  "version": "1.0.0",
-  "description": "My Burger Api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kubowania/burger-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kubowania/burger-api/issues"
-  },
-  "homepage": "https://github.com/kubowania/burger-api#readme",
-  "dependencies": {
-    "json-server": "^0.16.2"
-  }
+    "name": "newjerseypubliclibraries",
+    "version": "1.0.0",
+    "description": "New Jersey Public Libraries",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://www.mybookstracker.com"
+    },
+    "author": "Gerald Collins",
+    "license": "ISC",
+    "bugs": {
+        "url": "http://www.mybookstracker.com"
+    },
+    "homepage": "http://www.mybookstracker.com",
+    "dependencies": {
+        "json-server": "^0.16.3"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "new",
+        "jersey",
+        "public",
+        "libraries"
+    ]
 }
